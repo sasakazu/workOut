@@ -1,0 +1,6 @@
+framework module Pods_workOut {
+  umbrella header "Pods-workOut-umbrella.h"
+
+  export *
+  module * { export * }
+}
