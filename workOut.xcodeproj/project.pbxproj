@@ -61,6 +61,7 @@
 		73551F8F21E0ACBF000946DB /* workOut */ = {
 			isa = PBXGroup;
 			children = (
+				73551FA221E0AED9000946DB /* images */,
 				73551F9021E0ACBF000946DB /* AppDelegate.swift */,
 				73551F9221E0ACBF000946DB /* ViewController.swift */,
 				73551F9421E0ACBF000946DB /* Main.storyboard */,
@@ -71,13 +72,19 @@
 			path = workOut;
 			sourceTree = "<group>";
 		};
+		73551FA221E0AED9000946DB /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		DE71D99A1BA09EAB17957DA6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				92D9EB109B4E8224B90E27DA /* Pods-workOut.debug.xcconfig */,
 				F93C0DA4C644FC53F63A8B12 /* Pods-workOut.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -100,7 +107,7 @@
 				73551F8921E0ACBF000946DB /* Sources */,
 				73551F8A21E0ACBF000946DB /* Frameworks */,
 				73551F8B21E0ACBF000946DB /* Resources */,
-				8EC3A8B0453B171C5345265B /* [CP] Embed Pods Frameworks */,
+				317E69A2B4651C1B9523B079 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -180,7 +187,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8EC3A8B0453B171C5345265B /* [CP] Embed Pods Frameworks */ = {
+		317E69A2B4651C1B9523B079 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
