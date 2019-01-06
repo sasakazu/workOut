@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7313341C21E1F89000F29007 /* メニューの無料アイコン6.png in Resources */ = {isa = PBXBuildFile; fileRef = 7313341B21E1F89000F29007 /* メニューの無料アイコン6.png */; };
-		7313341E21E1F8E900F29007 /* カレンダーのフリーアイコン15.png in Resources */ = {isa = PBXBuildFile; fileRef = 7313341D21E1F8E900F29007 /* カレンダーのフリーアイコン15.png */; };
-		7313342021E1F92A00F29007 /* 8分音符アイコン 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7313341F21E1F92A00F29007 /* 8分音符アイコン 3.png */; };
+		7313341C21E1F89000F29007 /* setmenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 7313341B21E1F89000F29007 /* setmenu.png */; };
+		7313341E21E1F8E900F29007 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7313341D21E1F8E900F29007 /* calendar.png */; };
+		7313342021E1F92A00F29007 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = 7313341F21E1F92A00F29007 /* music.png */; };
+		7313342521E1FF3400F29007 /* setMenuTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313342421E1FF3400F29007 /* setMenuTable.swift */; };
+		7313342721E1FF6E00F29007 /* addSetMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313342621E1FF6E00F29007 /* addSetMenu.swift */; };
+		7313342921E2039C00F29007 /* scheduleMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313342821E2039C00F29007 /* scheduleMain.swift */; };
+		7313342B21E203D300F29007 /* workOutMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313342A21E203D300F29007 /* workOutMusic.swift */; };
 		73551F9121E0ACBF000946DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73551F9021E0ACBF000946DB /* AppDelegate.swift */; };
 		73551F9321E0ACBF000946DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73551F9221E0ACBF000946DB /* ViewController.swift */; };
 		73551F9621E0ACBF000946DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73551F9421E0ACBF000946DB /* Main.storyboard */; };
@@ -21,9 +25,13 @@
 
 /* Begin PBXFileReference section */
 		604F07C8A96CC3DBE3298ACF /* Pods_workOut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_workOut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7313341B21E1F89000F29007 /* メニューの無料アイコン6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "メニューの無料アイコン6.png"; sourceTree = "<group>"; };
-		7313341D21E1F8E900F29007 /* カレンダーのフリーアイコン15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "カレンダーのフリーアイコン15.png"; sourceTree = "<group>"; };
-		7313341F21E1F92A00F29007 /* 8分音符アイコン 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8分音符アイコン 3.png"; sourceTree = "<group>"; };
+		7313341B21E1F89000F29007 /* setmenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setmenu.png; sourceTree = "<group>"; };
+		7313341D21E1F8E900F29007 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		7313341F21E1F92A00F29007 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
+		7313342421E1FF3400F29007 /* setMenuTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = setMenuTable.swift; path = "workOut/セットメニュー/setMenuTable.swift"; sourceTree = SOURCE_ROOT; };
+		7313342621E1FF6E00F29007 /* addSetMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addSetMenu.swift; sourceTree = "<group>"; };
+		7313342821E2039C00F29007 /* scheduleMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scheduleMain.swift; sourceTree = "<group>"; };
+		7313342A21E203D300F29007 /* workOutMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workOutMusic.swift; sourceTree = "<group>"; };
 		73551F8D21E0ACBF000946DB /* workOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = workOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73551F9021E0ACBF000946DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73551F9221E0ACBF000946DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +56,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7313342121E1FEDC00F29007 /* セットメニュー */ = {
+			isa = PBXGroup;
+			children = (
+				7313342421E1FF3400F29007 /* setMenuTable.swift */,
+				7313342621E1FF6E00F29007 /* addSetMenu.swift */,
+			);
+			path = "セットメニュー";
+			sourceTree = "<group>";
+		};
+		7313342221E1FEF600F29007 /* スケジュール */ = {
+			isa = PBXGroup;
+			children = (
+				7313342821E2039C00F29007 /* scheduleMain.swift */,
+			);
+			name = "スケジュール";
+			path = "スケジュール";
+			sourceTree = "<group>";
+		};
+		7313342321E1FEFE00F29007 /* ワークアウトミュージック */ = {
+			isa = PBXGroup;
+			children = (
+				7313342A21E203D300F29007 /* workOutMusic.swift */,
+			);
+			name = "ワークアウトミュージック";
+			path = "ワークアウトミュージック";
+			sourceTree = "<group>";
+		};
+		7313342C21E2040B00F29007 /* More */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
 		73551F8421E0ACBF000946DB = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +111,10 @@
 		73551F8F21E0ACBF000946DB /* workOut */ = {
 			isa = PBXGroup;
 			children = (
+				7313342221E1FEF600F29007 /* スケジュール */,
+				7313342121E1FEDC00F29007 /* セットメニュー */,
+				7313342321E1FEFE00F29007 /* ワークアウトミュージック */,
+				7313342C21E2040B00F29007 /* More */,
 				73551FA221E0AED9000946DB /* images */,
 				73551F9021E0ACBF000946DB /* AppDelegate.swift */,
 				73551F9221E0ACBF000946DB /* ViewController.swift */,
@@ -84,9 +130,9 @@
 			isa = PBXGroup;
 			children = (
 				73551FA521E1F359000946DB /* workout.png */,
-				7313341D21E1F8E900F29007 /* カレンダーのフリーアイコン15.png */,
-				7313341F21E1F92A00F29007 /* 8分音符アイコン 3.png */,
-				7313341B21E1F89000F29007 /* メニューの無料アイコン6.png */,
+				7313341D21E1F8E900F29007 /* calendar.png */,
+				7313341F21E1F92A00F29007 /* music.png */,
+				7313341B21E1F89000F29007 /* setmenu.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -168,13 +214,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7313341E21E1F8E900F29007 /* カレンダーのフリーアイコン15.png in Resources */,
-				7313341C21E1F89000F29007 /* メニューの無料アイコン6.png in Resources */,
+				7313341E21E1F8E900F29007 /* calendar.png in Resources */,
+				7313341C21E1F89000F29007 /* setmenu.png in Resources */,
 				73551F9B21E0ACC0000946DB /* LaunchScreen.storyboard in Resources */,
 				73551FA621E1F359000946DB /* workout.png in Resources */,
 				73551F9821E0ACC0000946DB /* Assets.xcassets in Resources */,
 				73551F9621E0ACBF000946DB /* Main.storyboard in Resources */,
-				7313342021E1F92A00F29007 /* 8分音符アイコン 3.png in Resources */,
+				7313342021E1F92A00F29007 /* music.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +281,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				73551F9321E0ACBF000946DB /* ViewController.swift in Sources */,
+				7313342721E1FF6E00F29007 /* addSetMenu.swift in Sources */,
+				7313342921E2039C00F29007 /* scheduleMain.swift in Sources */,
+				7313342B21E203D300F29007 /* workOutMusic.swift in Sources */,
+				7313342521E1FF3400F29007 /* setMenuTable.swift in Sources */,
 				73551F9121E0ACBF000946DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
