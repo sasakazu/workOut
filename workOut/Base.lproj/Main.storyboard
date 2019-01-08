@@ -187,9 +187,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FcU-Y3-9WI">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FcU-Y3-9WI">
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="fGV-Jb-WjT">
@@ -198,18 +197,22 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fGV-Jb-WjT" id="2As-7j-go5">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bkc-Bd-ous">
-                                                    <rect key="frame" x="15" y="4" width="35" height="35"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                </imageView>
-                                            </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="9Qm-Cq-VNx" id="9zY-ss-yCc"/>
+                                    <outlet property="delegate" destination="9Qm-Cq-VNx" id="rcA-dn-1bu"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="FcU-Y3-9WI" firstAttribute="bottom" secondItem="Qig-u8-JSk" secondAttribute="bottom" id="R5P-dc-i6L"/>
+                            <constraint firstItem="FcU-Y3-9WI" firstAttribute="top" secondItem="Qig-u8-JSk" secondAttribute="top" id="T3M-OJ-HkW"/>
+                            <constraint firstItem="FcU-Y3-9WI" firstAttribute="leading" secondItem="Qig-u8-JSk" secondAttribute="leading" id="s8f-uX-I1z"/>
+                            <constraint firstItem="FcU-Y3-9WI" firstAttribute="trailing" secondItem="Qig-u8-JSk" secondAttribute="trailing" id="sy4-xw-lHS"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Qig-u8-JSk"/>
                     </view>
                     <navigationItem key="navigationItem" id="y7h-YF-KCe">
@@ -219,6 +222,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="setMenuTableView" destination="FcU-Y3-9WI" id="pMj-SG-6gj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mD8-3s-Rs6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -362,7 +368,7 @@
                         <outlet property="fourRepTF" destination="xAf-QV-bOO" id="sZ4-g7-hIe"/>
                         <outlet property="oneKGTF" destination="YAG-vS-Ltx" id="8xD-3X-Wzy"/>
                         <outlet property="oneRepTF" destination="UVd-pM-kkU" id="9Sb-EP-sMx"/>
-                        <outlet property="setNameTF" destination="YAG-vS-Ltx" id="5yL-LE-cn8"/>
+                        <outlet property="setNameTF" destination="JXZ-1q-JAJ" id="Wim-6x-XQW"/>
                         <outlet property="threeKGTF" destination="Wmc-BR-sFU" id="55l-Ro-v37"/>
                         <outlet property="threeRepTF" destination="hGO-1v-OKj" id="Lzb-Uj-Ekb"/>
                         <outlet property="twoKGTF" destination="REV-G4-fRV" id="UAV-aS-84o"/>
