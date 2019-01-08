@@ -7,35 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7313341C21E1F89000F29007 /* setmenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 7313341B21E1F89000F29007 /* setmenu.png */; };
-		7313341E21E1F8E900F29007 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7313341D21E1F8E900F29007 /* calendar.png */; };
-		7313342021E1F92A00F29007 /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = 7313341F21E1F92A00F29007 /* music.png */; };
 		7313342521E1FF3400F29007 /* setMenuTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313342421E1FF3400F29007 /* setMenuTable.swift */; };
 		7313342721E1FF6E00F29007 /* addSetMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313342621E1FF6E00F29007 /* addSetMenu.swift */; };
 		7313342921E2039C00F29007 /* scheduleMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313342821E2039C00F29007 /* scheduleMain.swift */; };
 		7313342B21E203D300F29007 /* workOutMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313342A21E203D300F29007 /* workOutMusic.swift */; };
+		7347E66021E4629800F37443 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 7347E65F21E4629800F37443 /* play.png */; };
 		73551F9121E0ACBF000946DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73551F9021E0ACBF000946DB /* AppDelegate.swift */; };
 		73551F9321E0ACBF000946DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73551F9221E0ACBF000946DB /* ViewController.swift */; };
 		73551F9621E0ACBF000946DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73551F9421E0ACBF000946DB /* Main.storyboard */; };
 		73551F9821E0ACC0000946DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73551F9721E0ACC0000946DB /* Assets.xcassets */; };
 		73551F9B21E0ACC0000946DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73551F9921E0ACC0000946DB /* LaunchScreen.storyboard */; };
 		73551FA621E1F359000946DB /* workout.png in Resources */ = {isa = PBXBuildFile; fileRef = 73551FA521E1F359000946DB /* workout.png */; };
-		73EBAD4721E4549F0027CC89 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 73EBAD4521E4549F0027CC89 /* play.png */; };
-		73EBAD4821E4549F0027CC89 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 73EBAD4621E4549F0027CC89 /* pause.png */; };
-		73EBAD4A21E45A2E0027CC89 /* pause3.png in Resources */ = {isa = PBXBuildFile; fileRef = 73EBAD4921E45A2E0027CC89 /* pause3.png */; };
-		73EBAD4C21E45AD40027CC89 /* play2.png in Resources */ = {isa = PBXBuildFile; fileRef = 73EBAD4B21E45AD40027CC89 /* play2.png */; };
+		7362931D21E4921900EAFDEB /* iconmonstr-text-23-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7362931C21E4921900EAFDEB /* iconmonstr-text-23-32.png */; };
+		7362931F21E492A400EAFDEB /* iconmonstr-disc-5-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7362931E21E492A300EAFDEB /* iconmonstr-disc-5-32.png */; };
+		7362932121E4932400EAFDEB /* iconmonstr-time-16-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7362932021E4932300EAFDEB /* iconmonstr-time-16-32.png */; };
+		7362932321E493E500EAFDEB /* iconmonstr-calendar-6-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7362932221E493E400EAFDEB /* iconmonstr-calendar-6-32.png */; };
+		7362932521E494A900EAFDEB /* object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7362932421E494A900EAFDEB /* object.swift */; };
+		7362932721E4966F00EAFDEB /* iconmonstr-media-control-49-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 7362932621E4966F00EAFDEB /* iconmonstr-media-control-49-48.png */; };
 		860B215E824AF841F8460D5E /* Pods_workOut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604F07C8A96CC3DBE3298ACF /* Pods_workOut.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		604F07C8A96CC3DBE3298ACF /* Pods_workOut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_workOut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7313341B21E1F89000F29007 /* setmenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setmenu.png; sourceTree = "<group>"; };
-		7313341D21E1F8E900F29007 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
-		7313341F21E1F92A00F29007 /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
 		7313342421E1FF3400F29007 /* setMenuTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = setMenuTable.swift; path = "workOut/セットメニュー/setMenuTable.swift"; sourceTree = SOURCE_ROOT; };
 		7313342621E1FF6E00F29007 /* addSetMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addSetMenu.swift; sourceTree = "<group>"; };
 		7313342821E2039C00F29007 /* scheduleMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scheduleMain.swift; sourceTree = "<group>"; };
 		7313342A21E203D300F29007 /* workOutMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workOutMusic.swift; sourceTree = "<group>"; };
+		7347E65F21E4629800F37443 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		73551F8D21E0ACBF000946DB /* workOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = workOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73551F9021E0ACBF000946DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73551F9221E0ACBF000946DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,10 +42,12 @@
 		73551F9A21E0ACC0000946DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73551F9C21E0ACC0000946DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73551FA521E1F359000946DB /* workout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = workout.png; sourceTree = "<group>"; };
-		73EBAD4521E4549F0027CC89 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
-		73EBAD4621E4549F0027CC89 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
-		73EBAD4921E45A2E0027CC89 /* pause3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause3.png; sourceTree = "<group>"; };
-		73EBAD4B21E45AD40027CC89 /* play2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play2.png; sourceTree = "<group>"; };
+		7362931C21E4921900EAFDEB /* iconmonstr-text-23-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-text-23-32.png"; sourceTree = "<group>"; };
+		7362931E21E492A300EAFDEB /* iconmonstr-disc-5-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-disc-5-32.png"; sourceTree = "<group>"; };
+		7362932021E4932300EAFDEB /* iconmonstr-time-16-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-time-16-32.png"; sourceTree = "<group>"; };
+		7362932221E493E400EAFDEB /* iconmonstr-calendar-6-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-calendar-6-32.png"; sourceTree = "<group>"; };
+		7362932421E494A900EAFDEB /* object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = object.swift; sourceTree = "<group>"; };
+		7362932621E4966F00EAFDEB /* iconmonstr-media-control-49-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-media-control-49-48.png"; sourceTree = "<group>"; };
 		92D9EB109B4E8224B90E27DA /* Pods-workOut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workOut.debug.xcconfig"; path = "Target Support Files/Pods-workOut/Pods-workOut.debug.xcconfig"; sourceTree = "<group>"; };
 		F93C0DA4C644FC53F63A8B12 /* Pods-workOut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workOut.release.xcconfig"; path = "Target Support Files/Pods-workOut/Pods-workOut.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +127,7 @@
 				73551F9021E0ACBF000946DB /* AppDelegate.swift */,
 				73551F9221E0ACBF000946DB /* ViewController.swift */,
 				73551F9421E0ACBF000946DB /* Main.storyboard */,
+				7362932421E494A900EAFDEB /* object.swift */,
 				73551F9721E0ACC0000946DB /* Assets.xcassets */,
 				73551F9921E0ACC0000946DB /* LaunchScreen.storyboard */,
 				73551F9C21E0ACC0000946DB /* Info.plist */,
@@ -137,14 +138,13 @@
 		73551FA221E0AED9000946DB /* images */ = {
 			isa = PBXGroup;
 			children = (
-				73EBAD4921E45A2E0027CC89 /* pause3.png */,
 				73551FA521E1F359000946DB /* workout.png */,
-				7313341D21E1F8E900F29007 /* calendar.png */,
-				73EBAD4B21E45AD40027CC89 /* play2.png */,
-				73EBAD4621E4549F0027CC89 /* pause.png */,
-				73EBAD4521E4549F0027CC89 /* play.png */,
-				7313341F21E1F92A00F29007 /* music.png */,
-				7313341B21E1F89000F29007 /* setmenu.png */,
+				7362931C21E4921900EAFDEB /* iconmonstr-text-23-32.png */,
+				7362932221E493E400EAFDEB /* iconmonstr-calendar-6-32.png */,
+				7362931E21E492A300EAFDEB /* iconmonstr-disc-5-32.png */,
+				7362932021E4932300EAFDEB /* iconmonstr-time-16-32.png */,
+				7362932621E4966F00EAFDEB /* iconmonstr-media-control-49-48.png */,
+				7347E65F21E4629800F37443 /* play.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -226,17 +226,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73EBAD4A21E45A2E0027CC89 /* pause3.png in Resources */,
-				7313341E21E1F8E900F29007 /* calendar.png in Resources */,
-				73EBAD4721E4549F0027CC89 /* play.png in Resources */,
-				7313341C21E1F89000F29007 /* setmenu.png in Resources */,
-				73EBAD4C21E45AD40027CC89 /* play2.png in Resources */,
+				7362931F21E492A400EAFDEB /* iconmonstr-disc-5-32.png in Resources */,
+				7362932721E4966F00EAFDEB /* iconmonstr-media-control-49-48.png in Resources */,
+				7362932321E493E500EAFDEB /* iconmonstr-calendar-6-32.png in Resources */,
 				73551F9B21E0ACC0000946DB /* LaunchScreen.storyboard in Resources */,
 				73551FA621E1F359000946DB /* workout.png in Resources */,
-				73EBAD4821E4549F0027CC89 /* pause.png in Resources */,
+				7362932121E4932400EAFDEB /* iconmonstr-time-16-32.png in Resources */,
 				73551F9821E0ACC0000946DB /* Assets.xcassets in Resources */,
+				7362931D21E4921900EAFDEB /* iconmonstr-text-23-32.png in Resources */,
 				73551F9621E0ACBF000946DB /* Main.storyboard in Resources */,
-				7313342021E1F92A00F29007 /* music.png in Resources */,
+				7347E66021E4629800F37443 /* play.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +299,7 @@
 				7313342721E1FF6E00F29007 /* addSetMenu.swift in Sources */,
 				7313342921E2039C00F29007 /* scheduleMain.swift in Sources */,
 				7313342B21E203D300F29007 /* workOutMusic.swift in Sources */,
+				7362932521E494A900EAFDEB /* object.swift in Sources */,
 				7313342521E1FF3400F29007 /* setMenuTable.swift in Sources */,
 				73551F9121E0ACBF000946DB /* AppDelegate.swift in Sources */,
 			);

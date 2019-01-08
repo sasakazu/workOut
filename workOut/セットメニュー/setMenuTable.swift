@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import RealmSwift
 
 class setMenuTable: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let realm = try! Realm()
+    print(Realm.Configuration.defaultConfiguration.fileURL!)
+        
+        
     }
   
 }
