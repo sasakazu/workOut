@@ -20,6 +20,10 @@
 		73551F9821E0ACC0000946DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73551F9721E0ACC0000946DB /* Assets.xcassets */; };
 		73551F9B21E0ACC0000946DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73551F9921E0ACC0000946DB /* LaunchScreen.storyboard */; };
 		73551FA621E1F359000946DB /* workout.png in Resources */ = {isa = PBXBuildFile; fileRef = 73551FA521E1F359000946DB /* workout.png */; };
+		73EBAD4721E4549F0027CC89 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 73EBAD4521E4549F0027CC89 /* play.png */; };
+		73EBAD4821E4549F0027CC89 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 73EBAD4621E4549F0027CC89 /* pause.png */; };
+		73EBAD4A21E45A2E0027CC89 /* pause3.png in Resources */ = {isa = PBXBuildFile; fileRef = 73EBAD4921E45A2E0027CC89 /* pause3.png */; };
+		73EBAD4C21E45AD40027CC89 /* play2.png in Resources */ = {isa = PBXBuildFile; fileRef = 73EBAD4B21E45AD40027CC89 /* play2.png */; };
 		860B215E824AF841F8460D5E /* Pods_workOut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604F07C8A96CC3DBE3298ACF /* Pods_workOut.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +44,10 @@
 		73551F9A21E0ACC0000946DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73551F9C21E0ACC0000946DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73551FA521E1F359000946DB /* workout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = workout.png; sourceTree = "<group>"; };
+		73EBAD4521E4549F0027CC89 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		73EBAD4621E4549F0027CC89 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		73EBAD4921E45A2E0027CC89 /* pause3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause3.png; sourceTree = "<group>"; };
+		73EBAD4B21E45AD40027CC89 /* play2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play2.png; sourceTree = "<group>"; };
 		92D9EB109B4E8224B90E27DA /* Pods-workOut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workOut.debug.xcconfig"; path = "Target Support Files/Pods-workOut/Pods-workOut.debug.xcconfig"; sourceTree = "<group>"; };
 		F93C0DA4C644FC53F63A8B12 /* Pods-workOut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workOut.release.xcconfig"; path = "Target Support Files/Pods-workOut/Pods-workOut.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,8 +137,12 @@
 		73551FA221E0AED9000946DB /* images */ = {
 			isa = PBXGroup;
 			children = (
+				73EBAD4921E45A2E0027CC89 /* pause3.png */,
 				73551FA521E1F359000946DB /* workout.png */,
 				7313341D21E1F8E900F29007 /* calendar.png */,
+				73EBAD4B21E45AD40027CC89 /* play2.png */,
+				73EBAD4621E4549F0027CC89 /* pause.png */,
+				73EBAD4521E4549F0027CC89 /* play.png */,
 				7313341F21E1F92A00F29007 /* music.png */,
 				7313341B21E1F89000F29007 /* setmenu.png */,
 			);
@@ -214,10 +226,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73EBAD4A21E45A2E0027CC89 /* pause3.png in Resources */,
 				7313341E21E1F8E900F29007 /* calendar.png in Resources */,
+				73EBAD4721E4549F0027CC89 /* play.png in Resources */,
 				7313341C21E1F89000F29007 /* setmenu.png in Resources */,
+				73EBAD4C21E45AD40027CC89 /* play2.png in Resources */,
 				73551F9B21E0ACC0000946DB /* LaunchScreen.storyboard in Resources */,
 				73551FA621E1F359000946DB /* workout.png in Resources */,
+				73EBAD4821E4549F0027CC89 /* pause.png in Resources */,
 				73551F9821E0ACC0000946DB /* Assets.xcassets in Resources */,
 				73551F9621E0ACBF000946DB /* Main.storyboard in Resources */,
 				7313342021E1F92A00F29007 /* music.png in Resources */,
