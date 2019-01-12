@@ -16,12 +16,16 @@ let w = UIScreen.main.bounds.size.width
 let h = UIScreen.main.bounds.size.height
 
 class scheduleMain: UIViewController, FSCalendarDelegate, FSCalendarDataSource, FSCalendarDelegateAppearance {
+    
+    
+    @IBOutlet weak var dateView: FSCalendar!
+    
     //スケジュール内容
     let labelDate = UILabel(frame: CGRect(x: 5, y: 580, width: 400, height: 50))
     //「主なスケジュール」の表示
     let labelTitle = UILabel(frame: CGRect(x: 10, y: 530, width: 180, height: 50))
     //カレンダー部分
-    let dateView = FSCalendar(frame: CGRect(x: 0, y: 100, width: w, height: 400))
+//    let dateView = FSCalendar(frame: CGRect(x: 0, y: 100, width: w, height: 400))
     //日付の表示
     let Date = UILabel(frame: CGRect(x: 5, y: 630, width: 200, height: 100))
     override func viewDidLoad() {
@@ -33,6 +37,9 @@ class scheduleMain: UIViewController, FSCalendarDelegate, FSCalendarDataSource, 
         self.dateView.tintColor = .red
         self.view.backgroundColor = .white
         dateView.backgroundColor = .white
+        dateView.scrollDirection = .vertical
+
+        
         view.addSubview(dateView)
         
         //日付表示設定
