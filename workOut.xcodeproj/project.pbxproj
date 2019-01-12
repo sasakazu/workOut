@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7313342521E1FF3400F29007 /* setMenuTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313342421E1FF3400F29007 /* setMenuTable.swift */; };
 		7313342721E1FF6E00F29007 /* addSetMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313342621E1FF6E00F29007 /* addSetMenu.swift */; };
-		7313342921E2039C00F29007 /* scheduleMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313342821E2039C00F29007 /* scheduleMain.swift */; };
 		7313342B21E203D300F29007 /* workOutMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313342A21E203D300F29007 /* workOutMusic.swift */; };
 		7347E66021E4629800F37443 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 7347E65F21E4629800F37443 /* play.png */; };
 		73551F9121E0ACBF000946DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73551F9021E0ACBF000946DB /* AppDelegate.swift */; };
@@ -17,13 +16,17 @@
 		73551F9621E0ACBF000946DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73551F9421E0ACBF000946DB /* Main.storyboard */; };
 		73551F9821E0ACC0000946DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73551F9721E0ACC0000946DB /* Assets.xcassets */; };
 		73551F9B21E0ACC0000946DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73551F9921E0ACC0000946DB /* LaunchScreen.storyboard */; };
-		7362931D21E4921900EAFDEB /* iconmonstr-text-23-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7362931C21E4921900EAFDEB /* iconmonstr-text-23-32.png */; };
-		7362931F21E492A400EAFDEB /* iconmonstr-disc-5-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7362931E21E492A300EAFDEB /* iconmonstr-disc-5-32.png */; };
-		7362932121E4932400EAFDEB /* iconmonstr-time-16-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7362932021E4932300EAFDEB /* iconmonstr-time-16-32.png */; };
+		7362931D21E4921900EAFDEB /* text.png in Resources */ = {isa = PBXBuildFile; fileRef = 7362931C21E4921900EAFDEB /* text.png */; };
+		7362931F21E492A400EAFDEB /* disc.png in Resources */ = {isa = PBXBuildFile; fileRef = 7362931E21E492A300EAFDEB /* disc.png */; };
+		7362932121E4932400EAFDEB /* time.png in Resources */ = {isa = PBXBuildFile; fileRef = 7362932021E4932300EAFDEB /* time.png */; };
 		7362932321E493E500EAFDEB /* iconmonstr-calendar-6-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7362932221E493E400EAFDEB /* iconmonstr-calendar-6-32.png */; };
 		7362932521E494A900EAFDEB /* object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7362932421E494A900EAFDEB /* object.swift */; };
-		7362932721E4966F00EAFDEB /* iconmonstr-media-control-49-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 7362932621E4966F00EAFDEB /* iconmonstr-media-control-49-48.png */; };
+		7362932721E4966F00EAFDEB /* media.png in Resources */ = {isa = PBXBuildFile; fileRef = 7362932621E4966F00EAFDEB /* media.png */; };
 		7362932D21E4A7D000EAFDEB /* workout4.png in Resources */ = {isa = PBXBuildFile; fileRef = 7362932C21E4A7D000EAFDEB /* workout4.png */; };
+		736ADB1421E99F6B00DEBE67 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 736ADB1321E99F6A00DEBE67 /* plus.png */; };
+		736ADB1621E9A1FF00DEBE67 /* scheduleMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736ADB1521E9A1FF00DEBE67 /* scheduleMain.swift */; };
+		736ADB1821E9A23000DEBE67 /* scheduleAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736ADB1721E9A23000DEBE67 /* scheduleAdd.swift */; };
+		73B873D821E5EBEC00E897EA /* launchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B873D721E5EBEC00E897EA /* launchViewController.swift */; };
 		860B215E824AF841F8460D5E /* Pods_workOut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604F07C8A96CC3DBE3298ACF /* Pods_workOut.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +34,6 @@
 		604F07C8A96CC3DBE3298ACF /* Pods_workOut.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_workOut.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7313342421E1FF3400F29007 /* setMenuTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = setMenuTable.swift; path = "workOut/セットメニュー/setMenuTable.swift"; sourceTree = SOURCE_ROOT; };
 		7313342621E1FF6E00F29007 /* addSetMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addSetMenu.swift; sourceTree = "<group>"; };
-		7313342821E2039C00F29007 /* scheduleMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scheduleMain.swift; sourceTree = "<group>"; };
 		7313342A21E203D300F29007 /* workOutMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workOutMusic.swift; sourceTree = "<group>"; };
 		7347E65F21E4629800F37443 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		73551F8D21E0ACBF000946DB /* workOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = workOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,13 +43,17 @@
 		73551F9721E0ACC0000946DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73551F9A21E0ACC0000946DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73551F9C21E0ACC0000946DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7362931C21E4921900EAFDEB /* iconmonstr-text-23-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-text-23-32.png"; sourceTree = "<group>"; };
-		7362931E21E492A300EAFDEB /* iconmonstr-disc-5-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-disc-5-32.png"; sourceTree = "<group>"; };
-		7362932021E4932300EAFDEB /* iconmonstr-time-16-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-time-16-32.png"; sourceTree = "<group>"; };
+		7362931C21E4921900EAFDEB /* text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text.png; sourceTree = "<group>"; };
+		7362931E21E492A300EAFDEB /* disc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disc.png; sourceTree = "<group>"; };
+		7362932021E4932300EAFDEB /* time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time.png; sourceTree = "<group>"; };
 		7362932221E493E400EAFDEB /* iconmonstr-calendar-6-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-calendar-6-32.png"; sourceTree = "<group>"; };
 		7362932421E494A900EAFDEB /* object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = object.swift; sourceTree = "<group>"; };
-		7362932621E4966F00EAFDEB /* iconmonstr-media-control-49-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-media-control-49-48.png"; sourceTree = "<group>"; };
+		7362932621E4966F00EAFDEB /* media.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = media.png; sourceTree = "<group>"; };
 		7362932C21E4A7D000EAFDEB /* workout4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = workout4.png; sourceTree = "<group>"; };
+		736ADB1321E99F6A00DEBE67 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		736ADB1521E9A1FF00DEBE67 /* scheduleMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scheduleMain.swift; sourceTree = "<group>"; };
+		736ADB1721E9A23000DEBE67 /* scheduleAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scheduleAdd.swift; sourceTree = "<group>"; };
+		73B873D721E5EBEC00E897EA /* launchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = launchViewController.swift; sourceTree = "<group>"; };
 		92D9EB109B4E8224B90E27DA /* Pods-workOut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workOut.debug.xcconfig"; path = "Target Support Files/Pods-workOut/Pods-workOut.debug.xcconfig"; sourceTree = "<group>"; };
 		F93C0DA4C644FC53F63A8B12 /* Pods-workOut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workOut.release.xcconfig"; path = "Target Support Files/Pods-workOut/Pods-workOut.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,7 +82,8 @@
 		7313342221E1FEF600F29007 /* スケジュール */ = {
 			isa = PBXGroup;
 			children = (
-				7313342821E2039C00F29007 /* scheduleMain.swift */,
+				736ADB1721E9A23000DEBE67 /* scheduleAdd.swift */,
+				736ADB1521E9A1FF00DEBE67 /* scheduleMain.swift */,
 			);
 			name = "スケジュール";
 			path = "スケジュール";
@@ -123,13 +130,14 @@
 				7313342121E1FEDC00F29007 /* セットメニュー */,
 				7313342321E1FEFE00F29007 /* ワークアウトミュージック */,
 				7313342C21E2040B00F29007 /* More */,
+				736ADB1221E8571F00DEBE67 /* データーベース */,
 				73551FA221E0AED9000946DB /* images */,
 				73551F9021E0ACBF000946DB /* AppDelegate.swift */,
 				73551F9221E0ACBF000946DB /* ViewController.swift */,
 				73551F9421E0ACBF000946DB /* Main.storyboard */,
-				7362932421E494A900EAFDEB /* object.swift */,
 				73551F9721E0ACC0000946DB /* Assets.xcassets */,
 				73551F9921E0ACC0000946DB /* LaunchScreen.storyboard */,
+				73B873D721E5EBEC00E897EA /* launchViewController.swift */,
 				73551F9C21E0ACC0000946DB /* Info.plist */,
 			);
 			path = workOut;
@@ -139,14 +147,24 @@
 			isa = PBXGroup;
 			children = (
 				7362932C21E4A7D000EAFDEB /* workout4.png */,
-				7362931C21E4921900EAFDEB /* iconmonstr-text-23-32.png */,
+				7362931C21E4921900EAFDEB /* text.png */,
 				7362932221E493E400EAFDEB /* iconmonstr-calendar-6-32.png */,
-				7362931E21E492A300EAFDEB /* iconmonstr-disc-5-32.png */,
-				7362932021E4932300EAFDEB /* iconmonstr-time-16-32.png */,
-				7362932621E4966F00EAFDEB /* iconmonstr-media-control-49-48.png */,
+				736ADB1321E99F6A00DEBE67 /* plus.png */,
+				7362931E21E492A300EAFDEB /* disc.png */,
+				7362932021E4932300EAFDEB /* time.png */,
+				7362932621E4966F00EAFDEB /* media.png */,
 				7347E65F21E4629800F37443 /* play.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		736ADB1221E8571F00DEBE67 /* データーベース */ = {
+			isa = PBXGroup;
+			children = (
+				7362932421E494A900EAFDEB /* object.swift */,
+			);
+			name = "データーベース";
+			path = "データーベース";
 			sourceTree = "<group>";
 		};
 		DE71D99A1BA09EAB17957DA6 /* Pods */ = {
@@ -231,16 +249,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7362931F21E492A400EAFDEB /* iconmonstr-disc-5-32.png in Resources */,
-				7362932721E4966F00EAFDEB /* iconmonstr-media-control-49-48.png in Resources */,
+				7362931F21E492A400EAFDEB /* disc.png in Resources */,
+				7362932721E4966F00EAFDEB /* media.png in Resources */,
 				7362932321E493E500EAFDEB /* iconmonstr-calendar-6-32.png in Resources */,
 				73551F9B21E0ACC0000946DB /* LaunchScreen.storyboard in Resources */,
-				7362932121E4932400EAFDEB /* iconmonstr-time-16-32.png in Resources */,
+				7362932121E4932400EAFDEB /* time.png in Resources */,
 				73551F9821E0ACC0000946DB /* Assets.xcassets in Resources */,
-				7362931D21E4921900EAFDEB /* iconmonstr-text-23-32.png in Resources */,
+				7362931D21E4921900EAFDEB /* text.png in Resources */,
 				73551F9621E0ACBF000946DB /* Main.storyboard in Resources */,
 				7347E66021E4629800F37443 /* play.png in Resources */,
 				7362932D21E4A7D000EAFDEB /* workout4.png in Resources */,
+				736ADB1421E99F6B00DEBE67 /* plus.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +297,8 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-workOut/Pods-workOut-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CalculateCalendarLogic/CalculateCalendarLogic.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 			);
@@ -285,6 +306,8 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CalculateCalendarLogic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 			);
@@ -300,13 +323,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				736ADB1821E9A23000DEBE67 /* scheduleAdd.swift in Sources */,
 				73551F9321E0ACBF000946DB /* ViewController.swift in Sources */,
 				7313342721E1FF6E00F29007 /* addSetMenu.swift in Sources */,
-				7313342921E2039C00F29007 /* scheduleMain.swift in Sources */,
 				7313342B21E203D300F29007 /* workOutMusic.swift in Sources */,
 				7362932521E494A900EAFDEB /* object.swift in Sources */,
 				7313342521E1FF3400F29007 /* setMenuTable.swift in Sources */,
 				73551F9121E0ACBF000946DB /* AppDelegate.swift in Sources */,
+				73B873D821E5EBEC00E897EA /* launchViewController.swift in Sources */,
+				736ADB1621E9A1FF00DEBE67 /* scheduleMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +481,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VNAV5S2KU6;
 				INFOPLIST_FILE = workOut/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,6 +501,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VNAV5S2KU6;
 				INFOPLIST_FILE = workOut/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -8,7 +8,8 @@ target 'workOut' do
   # Pods for workOut
 
   pod 'RealmSwift'
-  
+  pod 'FSCalendar'
+  pod 'CalculateCalendarLogic'
   
   
   

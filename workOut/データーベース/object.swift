@@ -9,8 +9,6 @@
 import Foundation
 import RealmSwift
 
-
-
 class SetMenu: Object {
     
     @objc dynamic var order = 0
@@ -32,7 +30,15 @@ class SetMenu: Object {
     @objc dynamic var fiveKG = ""
     @objc dynamic var fiveRep = ""
     
+}
 
+
+class Event: Object {
+    
+    @objc dynamic var date: String = ""
+    @objc dynamic var event: String = ""
     
 }
+
+
 
