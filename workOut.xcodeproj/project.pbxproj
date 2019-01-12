@@ -26,6 +26,7 @@
 		736ADB1421E99F6B00DEBE67 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 736ADB1321E99F6A00DEBE67 /* plus.png */; };
 		736ADB1621E9A1FF00DEBE67 /* scheduleMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736ADB1521E9A1FF00DEBE67 /* scheduleMain.swift */; };
 		736ADB1821E9A23000DEBE67 /* scheduleAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736ADB1721E9A23000DEBE67 /* scheduleAdd.swift */; };
+		736ADB1A21E9B29300DEBE67 /* interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736ADB1921E9B29300DEBE67 /* interval.swift */; };
 		73B873D821E5EBEC00E897EA /* launchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B873D721E5EBEC00E897EA /* launchViewController.swift */; };
 		860B215E824AF841F8460D5E /* Pods_workOut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604F07C8A96CC3DBE3298ACF /* Pods_workOut.framework */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		736ADB1321E99F6A00DEBE67 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
 		736ADB1521E9A1FF00DEBE67 /* scheduleMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scheduleMain.swift; sourceTree = "<group>"; };
 		736ADB1721E9A23000DEBE67 /* scheduleAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scheduleAdd.swift; sourceTree = "<group>"; };
+		736ADB1921E9B29300DEBE67 /* interval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interval.swift; sourceTree = "<group>"; };
 		73B873D721E5EBEC00E897EA /* launchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = launchViewController.swift; sourceTree = "<group>"; };
 		92D9EB109B4E8224B90E27DA /* Pods-workOut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workOut.debug.xcconfig"; path = "Target Support Files/Pods-workOut/Pods-workOut.debug.xcconfig"; sourceTree = "<group>"; };
 		F93C0DA4C644FC53F63A8B12 /* Pods-workOut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workOut.release.xcconfig"; path = "Target Support Files/Pods-workOut/Pods-workOut.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 		73551F8F21E0ACBF000946DB /* workOut */ = {
 			isa = PBXGroup;
 			children = (
+				736ADB1B21E9B2A600DEBE67 /* インターバル */,
 				7313342221E1FEF600F29007 /* スケジュール */,
 				7313342121E1FEDC00F29007 /* セットメニュー */,
 				7313342321E1FEFE00F29007 /* ワークアウトミュージック */,
@@ -165,6 +168,15 @@
 			);
 			name = "データーベース";
 			path = "データーベース";
+			sourceTree = "<group>";
+		};
+		736ADB1B21E9B2A600DEBE67 /* インターバル */ = {
+			isa = PBXGroup;
+			children = (
+				736ADB1921E9B29300DEBE67 /* interval.swift */,
+			);
+			name = "インターバル";
+			path = "インターバル";
 			sourceTree = "<group>";
 		};
 		DE71D99A1BA09EAB17957DA6 /* Pods */ = {
@@ -323,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				736ADB1A21E9B29300DEBE67 /* interval.swift in Sources */,
 				736ADB1821E9A23000DEBE67 /* scheduleAdd.swift in Sources */,
 				73551F9321E0ACBF000946DB /* ViewController.swift in Sources */,
 				7313342721E1FF6E00F29007 /* addSetMenu.swift in Sources */,
