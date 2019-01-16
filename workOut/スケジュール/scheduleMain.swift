@@ -19,21 +19,19 @@ class scheduleMain: UIViewController, FSCalendarDelegate, FSCalendarDataSource, 
     
     
     @IBOutlet weak var dateView: FSCalendar!
+    @IBOutlet weak var labelDate: UILabel!
+    @IBOutlet weak var Date: UILabel!
+    @IBOutlet weak var labelTitle: UILabel!
+    @IBOutlet weak var addBtn: UIButton!
     
-    //スケジュール内容
-    let labelDate = UILabel(frame: CGRect(x: 5, y: 580, width: 400, height: 50))
-    //「主なスケジュール」の表示
-    let labelTitle = UILabel(frame: CGRect(x: 10, y: 530, width: 180, height: 50))
-    //カレンダー部分
-//    let dateView = FSCalendar(frame: CGRect(x: 0, y: 100, width: w, height: 400))
-    //日付の表示
-    let Date = UILabel(frame: CGRect(x: 5, y: 630, width: 200, height: 100))
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
         //カレンダー設定
         self.dateView.dataSource = self
         self.dateView.delegate = self
-//        self.dateView.today = true
+//        self.dateView.today = false
         self.dateView.tintColor = .red
         self.view.backgroundColor = .white
         dateView.backgroundColor = .white
@@ -60,7 +58,8 @@ class scheduleMain: UIViewController, FSCalendarDelegate, FSCalendarDataSource, 
         view.addSubview(labelDate)
         
         //スケジュール追加ボタン
-        let addBtn = UIButton(frame: CGRect(x: w - 80, y: h - 160, width: 60, height: 60))
+//        let addBtn = UIButton(frame: CGRect(x: w - 80, y: h - 160, width: 60, height: 60))
+//        
         addBtn.setTitle("+", for: UIControl.State())
         addBtn.setTitleColor(.white, for: UIControl.State())
         addBtn.backgroundColor = .orange

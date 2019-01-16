@@ -11,16 +11,18 @@ import RealmSwift
 //ディスプレイサイズ取得
 let w2 = UIScreen.main.bounds.size.width
 let h2 = UIScreen.main.bounds.size.height
-//スケジュール内容入力テキスト
-let eventText = UITextView(frame: CGRect(x: (w2 - 300) / 2, y: 100, width: 300, height: 200))
 
-//日付フォーム(UIDatePickerを使用)
-let y = UIDatePicker(frame: CGRect(x: 0, y: 300, width: w2, height: 300))
-//日付表示
-let y_text = UILabel(frame: CGRect(x: (w2 - 300) / 2, y: 570, width: 300, height: 20))
 
 
 class scheduleAdd: UIViewController {
+    
+    
+    @IBOutlet weak var eventText: UITextView!
+    @IBOutlet weak var y: UIDatePicker!
+    @IBOutlet weak var y_text: UILabel!
+    
+    @IBOutlet weak var eventInsert: UIButton!
+    @IBOutlet weak var backBtn: UIButton!
     
     var date: String!
     override func viewDidLoad() {
@@ -46,8 +48,6 @@ class scheduleAdd: UIViewController {
         y_text.textAlignment = .center
         view.addSubview(y_text)
         
-        //「書く!」ボタン
-        let eventInsert = UIButton(frame: CGRect(x: (w2 - 180) / 2, y: 600, width: 200, height: 50))
         eventInsert.setTitle("スケジュールに追加！", for: UIControl.State())
         eventInsert.setTitleColor(.white, for: UIControl.State())
         eventInsert.backgroundColor = .orange
@@ -55,8 +55,7 @@ class scheduleAdd: UIViewController {
         eventInsert.addTarget(self, action: #selector(saveEvent(_:)), for: .touchUpInside)
         view.addSubview(eventInsert)
         
-        //「戻る!」ボタン
-        let backBtn = UIButton(frame: CGRect(x: (w - 200) / 2, y: h - 70, width: 200, height: 30))
+  
         backBtn.setTitle("戻る", for: UIControl.State())
         backBtn.setTitleColor(.orange, for: UIControl.State())
         backBtn.backgroundColor = .white
