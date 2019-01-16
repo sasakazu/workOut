@@ -21,7 +21,7 @@ class scheduleMain: UIViewController, FSCalendarDelegate, FSCalendarDataSource, 
     @IBOutlet weak var dateView: FSCalendar!
     @IBOutlet weak var labelDate: UILabel!
     @IBOutlet weak var Date: UILabel!
-    @IBOutlet weak var labelTitle: UILabel!
+//    @IBOutlet weak var labelTitle: UILabel!
     @IBOutlet weak var addBtn: UIButton!
     
 
@@ -47,19 +47,16 @@ class scheduleMain: UIViewController, FSCalendarDelegate, FSCalendarDataSource, 
         view.addSubview(Date)
         
         //「主なスケジュール」表示設定
-        labelTitle.text = ""
-        labelTitle.textAlignment = .center
-        labelTitle.font = UIFont.systemFont(ofSize: 20.0)
-        view.addSubview(labelTitle)
+//        labelTitle.text = ""
+//        labelTitle.textAlignment = .center
+//        labelTitle.font = UIFont.systemFont(ofSize: 20.0)
+//        view.addSubview(labelTitle)
         
         //スケジュール内容表示設定
         labelDate.text = ""
         labelDate.font = UIFont.systemFont(ofSize: 18.0)
         view.addSubview(labelDate)
         
-        //スケジュール追加ボタン
-//        let addBtn = UIButton(frame: CGRect(x: w - 80, y: h - 160, width: 60, height: 60))
-//        
         addBtn.setTitle("+", for: UIControl.State())
         addBtn.setTitleColor(.white, for: UIControl.State())
         addBtn.backgroundColor = .orange
@@ -137,10 +134,10 @@ class scheduleMain: UIViewController, FSCalendarDelegate, FSCalendarDataSource, 
     //カレンダー処理(スケジュール表示処理)
     func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition){
         
-        labelTitle.text = "主なスケジュール"
-        labelTitle.backgroundColor = .orange
-        view.addSubview(labelTitle)
-        
+//        labelTitle.text = "主なスケジュール"
+//        labelTitle.backgroundColor = .orange
+//        view.addSubview(labelTitle)
+//        
         //予定がある場合、スケジュールをDBから取得・表示する。
         //無い場合、「スケジュールはありません」と表示。
         labelDate.text = "スケジュールはありません"

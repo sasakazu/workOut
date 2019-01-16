@@ -25,6 +25,7 @@ class scheduleAdd: UIViewController {
     @IBOutlet weak var backBtn: UIButton!
     
     var date: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
