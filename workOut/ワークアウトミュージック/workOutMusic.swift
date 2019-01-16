@@ -157,7 +157,7 @@ class workOutMusic: UIViewController,MPMediaPickerControllerDelegate {
             //再生中であることを示す
             playorpause = 1
             //画像を再生のマークに
-            playButton.setImage(UIImage(named: "pause.png"), for: UIControl.State())
+            playButton.setImage(UIImage(named: "media.png"), for: UIControl.State())
             //もしまだ1度も再生されてなければ
             if flag == 0 {
                 scrubBar.isHidden = false
@@ -183,13 +183,13 @@ class workOutMusic: UIViewController,MPMediaPickerControllerDelegate {
     //次の曲へ
     @IBAction func next(_ sender: Any) {
         player.skipToNextItem()
-        playButton.setImage(UIImage(named: "play.png"), for: UIControl.State())
+        playButton.setImage(UIImage(named: "media.png"), for: UIControl.State())
     }
     
     //前の曲へ
     @IBAction func back(_ sender: Any) {
         player.skipToPreviousItem()
-        playButton.setImage(UIImage(named: "play.png"), for: UIControl.State())
+        playButton.setImage(UIImage(named: "media.png"), for: UIControl.State())
     }
     
     //スライダーを移動した位置を曲の再生位置に設定

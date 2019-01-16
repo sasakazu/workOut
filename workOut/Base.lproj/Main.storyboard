@@ -176,7 +176,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xbh-qh-geD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-148" y="1292"/>
+            <point key="canvasLocation" x="-148" y="1447"/>
         </scene>
         <!--Set Menu Table-->
         <scene sceneID="aAh-nr-dDd">
@@ -755,7 +755,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vv7-e3-PXN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-159" y="594"/>
+            <point key="canvasLocation" x="-148" y="703"/>
         </scene>
         <!--Schedule-->
         <scene sceneID="zSv-uA-SjP">
