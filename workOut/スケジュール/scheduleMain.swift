@@ -12,8 +12,8 @@ import CalculateCalendarLogic
 import RealmSwift
 
 //ディスプレイサイズ取得
-let w = UIScreen.main.bounds.size.width
-let h = UIScreen.main.bounds.size.height
+//let w = UIScreen.main.bounds.size.width
+//let h = UIScreen.main.bounds.size.height
 
 class scheduleMain: UIViewController, FSCalendarDelegate, FSCalendarDataSource, FSCalendarDelegateAppearance {
     
