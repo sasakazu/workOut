@@ -35,7 +35,7 @@ class scheduleMain: UIViewController, FSCalendarDelegate, FSCalendarDataSource, 
         self.dateView.tintColor = .red
         self.view.backgroundColor = .white
         dateView.backgroundColor = .white
-        dateView.scrollDirection = .vertical
+//        dateView.scrollDirection = .vertical
 
         
         view.addSubview(dateView)
