@@ -27,6 +27,7 @@
 		736ADB1621E9A1FF00DEBE67 /* scheduleMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736ADB1521E9A1FF00DEBE67 /* scheduleMain.swift */; };
 		736ADB1821E9A23000DEBE67 /* scheduleAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736ADB1721E9A23000DEBE67 /* scheduleAdd.swift */; };
 		736ADB1A21E9B29300DEBE67 /* interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736ADB1921E9B29300DEBE67 /* interval.swift */; };
+		7394271C21F2D11400BABC3E /* setMenuDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7394271B21F2D11400BABC3E /* setMenuDetail.swift */; };
 		73B873D821E5EBEC00E897EA /* launchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B873D721E5EBEC00E897EA /* launchViewController.swift */; };
 		860B215E824AF841F8460D5E /* Pods_workOut.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 604F07C8A96CC3DBE3298ACF /* Pods_workOut.framework */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,7 @@
 		736ADB1521E9A1FF00DEBE67 /* scheduleMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scheduleMain.swift; sourceTree = "<group>"; };
 		736ADB1721E9A23000DEBE67 /* scheduleAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scheduleAdd.swift; sourceTree = "<group>"; };
 		736ADB1921E9B29300DEBE67 /* interval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interval.swift; sourceTree = "<group>"; };
+		7394271B21F2D11400BABC3E /* setMenuDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setMenuDetail.swift; sourceTree = "<group>"; };
 		73B873D721E5EBEC00E897EA /* launchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = launchViewController.swift; sourceTree = "<group>"; };
 		92D9EB109B4E8224B90E27DA /* Pods-workOut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workOut.debug.xcconfig"; path = "Target Support Files/Pods-workOut/Pods-workOut.debug.xcconfig"; sourceTree = "<group>"; };
 		F93C0DA4C644FC53F63A8B12 /* Pods-workOut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workOut.release.xcconfig"; path = "Target Support Files/Pods-workOut/Pods-workOut.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			children = (
 				7313342421E1FF3400F29007 /* setMenuTable.swift */,
 				7313342621E1FF6E00F29007 /* addSetMenu.swift */,
+				7394271B21F2D11400BABC3E /* setMenuDetail.swift */,
 			);
 			path = "セットメニュー";
 			sourceTree = "<group>";
@@ -342,6 +345,7 @@
 				7313342B21E203D300F29007 /* workOutMusic.swift in Sources */,
 				7362932521E494A900EAFDEB /* object.swift in Sources */,
 				7313342521E1FF3400F29007 /* setMenuTable.swift in Sources */,
+				7394271C21F2D11400BABC3E /* setMenuDetail.swift in Sources */,
 				73551F9121E0ACBF000946DB /* AppDelegate.swift in Sources */,
 				73B873D821E5EBEC00E897EA /* launchViewController.swift in Sources */,
 				736ADB1621E9A1FF00DEBE67 /* scheduleMain.swift in Sources */,

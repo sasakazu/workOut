@@ -13,6 +13,25 @@ class setMenuTable: UIViewController, UITableViewDelegate, UITableViewDataSource
 
     var setMenuItem: Results<SetMenu>!
     
+    
+    var trainingName:String = ""
+    
+    var training1setKG:String = ""
+    var training1setRep:String = ""
+    
+    var training2setKG:String = ""
+    var training2setRep:String = ""
+    
+    var training3setKG:String = ""
+    var training3setRep:String = ""
+    
+    var training4setKG:String = ""
+    var training4setRep:String = ""
+    
+    var training5setKG:String = ""
+    var training5setRep:String = ""
+    
+    
     @IBOutlet weak var setMenuTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,6 +69,61 @@ class setMenuTable: UIViewController, UITableViewDelegate, UITableViewDataSource
         
     }
     
+    
+    
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let object = setMenuItem[indexPath.row]
+        
+        trainingName = object.setName
+        
+        training1setKG = object.oneKG
+        training1setRep = object.oneRep
+        
+        training2setKG = object.twoKG
+        training2setRep = object.twoRep
+        
+        training3setKG = object.threeKG
+        training3setRep = object.threeRep
+        
+        training4setKG = object.fourKG
+        training4setRep = object.fourRep
+        
+        training5setKG = object.fiveKG
+        training5setRep = object.fiveRep
+        
+        performSegue(withIdentifier: "goDetail",sender: nil)
+        
+    }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any!) {
+        if (segue.identifier == "goDetail") {
+            
+            let secondVC: setMenuDetail = (segue.destination as? setMenuDetail)!
+            
+            secondVC.TRAININGName = trainingName
+            
+            secondVC.FIRSTKG = training1setKG
+            secondVC.FIRSTRep = training1setRep
+            
+            secondVC.SECONDKG = training2setKG
+            secondVC.SECONDRep = training2setRep
+            
+            secondVC.THIRDKG = training3setKG
+            secondVC.THIRDRep = training3setRep
+            
+            secondVC.FOURTHKG = training4setKG
+            secondVC.FOURTHRep = training4setRep
+            
+            secondVC.FIFTHKG = training5setKG
+            secondVC.FIFTHRep = training5setRep
+            
+            
+        }
+        
+    }
     
     
     
