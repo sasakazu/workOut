@@ -11,9 +11,6 @@ import FSCalendar
 import CalculateCalendarLogic
 import RealmSwift
 
-//ディスプレイサイズ取得
-//let w = UIScreen.main.bounds.size.width
-//let h = UIScreen.main.bounds.size.height
 
 class scheduleMain: UIViewController, FSCalendarDelegate, FSCalendarDataSource, FSCalendarDelegateAppearance {
     
@@ -139,12 +136,6 @@ class scheduleMain: UIViewController, FSCalendarDelegate, FSCalendarDataSource, 
     //カレンダー処理(スケジュール表示処理)
     func calendar(_ calendar: FSCalendar, didSelect date: Date, at monthPosition: FSCalendarMonthPosition){
         
-//        labelTitle.text = "主なスケジュール"
-//        labelTitle.backgroundColor = .orange
-//        view.addSubview(labelTitle)
-//        
-        //予定がある場合、スケジュールをDBから取得・表示する。
-        //無い場合、「スケジュールはありません」と表示。
         labelDate.text = "スケジュールはありません"
         labelDate.textColor = .lightGray
         view.addSubview(labelDate)

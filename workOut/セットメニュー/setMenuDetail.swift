@@ -13,7 +13,6 @@ class setMenuDetail: UIViewController {
     
     
     @IBOutlet weak var trainingName: UILabel!
-    
     @IBOutlet weak var firstKG: UILabel!
     @IBOutlet weak var firstRep: UILabel!
     @IBOutlet weak var secondKG: UILabel!
@@ -25,7 +24,18 @@ class setMenuDetail: UIViewController {
     @IBOutlet weak var fifthKG: UILabel!
     @IBOutlet weak var fifthRep: UILabel!
     
-//    受け変数
+    @IBOutlet weak var viewLayer1: UIView!
+    
+    @IBOutlet weak var viewLayer2: UIView!
+    
+    @IBOutlet weak var viewLayer3: UIView!
+    
+    @IBOutlet weak var viewLayer4: UIView!
+    
+    @IBOutlet weak var viewLayer5: UIView!
+    
+    
+    //    受け変数
     var TRAININGName:String = ""
     
     var FIRSTKG:String = ""
@@ -47,6 +57,47 @@ class setMenuDetail: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        viewLayer1.layer.cornerRadius = 5.0
+        
+        viewLayer2.layer.cornerRadius = 5.0
+        
+        viewLayer3.layer.cornerRadius = 5.0
+        
+        viewLayer4.layer.cornerRadius = 5.0
+        
+        viewLayer5.layer.cornerRadius = 5.0
+        
+//        影・ぼかし
+        
+        
+        viewLayer1.layer.shadowColor = UIColor.black.cgColor
+        viewLayer1.layer.shadowOpacity = 0.5
+        viewLayer1.layer.shadowOffset = CGSize(width: 5, height: 5)
+        viewLayer1.layer.shadowRadius = 5
+        
+        
+        
+        viewLayer2.layer.shadowColor = UIColor.black.cgColor
+        viewLayer2.layer.shadowOpacity = 0.5
+        viewLayer2.layer.shadowOffset = CGSize(width: 5, height: 5)
+        viewLayer2.layer.shadowRadius = 5
+        
+        viewLayer3.layer.shadowColor = UIColor.black.cgColor
+        viewLayer3.layer.shadowOpacity = 0.5
+        viewLayer3.layer.shadowOffset = CGSize(width: 5, height: 5)
+        viewLayer3.layer.shadowRadius = 5
+        
+        viewLayer4.layer.shadowColor = UIColor.black.cgColor
+        viewLayer4.layer.shadowOpacity = 0.5
+        viewLayer4.layer.shadowOffset = CGSize(width: 5, height: 5)
+        viewLayer4.layer.shadowRadius = 5
+        
+        viewLayer5.layer.shadowColor = UIColor.black.cgColor
+        viewLayer5.layer.shadowOpacity = 0.5
+        viewLayer5.layer.shadowOffset = CGSize(width: 5, height: 5)
+        viewLayer5.layer.shadowRadius = 5
+        
+//        表示
         trainingName.text = TRAININGName
         
         firstKG.text = "\(FIRSTKG) Kg"
