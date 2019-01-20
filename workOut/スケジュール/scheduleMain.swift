@@ -28,6 +28,16 @@ class scheduleMain: UIViewController, FSCalendarDelegate, FSCalendarDataSource, 
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.dateView.calendarWeekdayView.weekdayLabels[0].text = "日"
+        self.dateView.calendarWeekdayView.weekdayLabels[1].text = "月"
+        self.dateView.calendarWeekdayView.weekdayLabels[2].text = "火"
+        self.dateView.calendarWeekdayView.weekdayLabels[3].text = "水"
+        self.dateView.calendarWeekdayView.weekdayLabels[4].text = "木"
+        self.dateView.calendarWeekdayView.weekdayLabels[5].text = "金"
+        self.dateView.calendarWeekdayView.weekdayLabels[6].text = "土"
+        
+        
         //カレンダー設定
         self.dateView.dataSource = self
         self.dateView.delegate = self
@@ -46,11 +56,6 @@ class scheduleMain: UIViewController, FSCalendarDelegate, FSCalendarDataSource, 
         Date.textColor = .black
         view.addSubview(Date)
         
-        //「主なスケジュール」表示設定
-//        labelTitle.text = ""
-//        labelTitle.textAlignment = .center
-//        labelTitle.font = UIFont.systemFont(ofSize: 20.0)
-//        view.addSubview(labelTitle)
         
         //スケジュール内容表示設定
         labelDate.text = ""
