@@ -7,17 +7,113 @@
 //
 
 import UIKit
+import RealmSwift
 
-class editSetMenu: UIViewController {
+
+class editSetMenu: UIViewController, UITextFieldDelegate {
+    
+    
+    var editNamePh:String = ""
+    
+    var oneKgPh:String = ""
+    var oneRepPh:String = ""
+
+    var twoKgPh:String = ""
+    var twoRepPh:String = ""
+
+    var threeKgPh:String = ""
+    var threeRepPh:String = ""
+
+    var fourKgPh:String = ""
+    var fourRepPh:String = ""
+
+    var fiveKgPh:String = ""
+    var fiveRepPh:String = ""
 
   
+    @IBOutlet weak var editSetMenu: UITextField!
     
+    @IBOutlet weak var editOneKG: UITextField!
+    @IBOutlet weak var editOneRep: UITextField!
+    
+    @IBOutlet weak var editTwoKG: UITextField!
+    @IBOutlet weak var editTwoRep: UITextField!
+    
+    @IBOutlet weak var editThreeKG: UITextField!
+    @IBOutlet weak var editThreeRep: UITextField!
+    
+    @IBOutlet weak var editFourKG: UITextField!
+    @IBOutlet weak var editFourRep: UITextField!
+    
+    @IBOutlet weak var editFiveKG: UITextField!
+    @IBOutlet weak var editFiveRep: UITextField!
+    
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        editSetMenu.text = editNamePh
+        
+        editOneKG.text = oneKgPh
+        editOneRep.text = oneRepPh
 
+        editTwoKG.text = twoKgPh
+        editTwoRep.text = twoRepPh
+        
+        editThreeKG.text = threeKgPh
+        editThreeRep.text = threeRepPh
+        
+        editFourKG.text = fourKgPh
+        editFourRep.text = fourRepPh
+        
+        editFiveKG.text = fiveKgPh
+        editFiveRep.text = fiveRepPh
+    
+    
     }
     
-
+    
+    
+    @IBAction func editDone(_ sender: Any) {
+        
+        let realm = try! Realm()
+        
+        let editMenus = realm.objects(SetMenu.self).filter( "setName == %@", editNamePh )
+        
+        if let editMenu = editMenus.first
+        {
+            
+            
+            try! realm.write {
+                
+                editMenu.setName = editSetMenu.text!
+                
+                editMenu.oneKG = editOneKG.text!
+                editMenu.oneRep = editOneRep.text!
+                editMenu.twoKG = editTwoKG.text!
+                editMenu.twoRep = editTwoRep.text!
+                editMenu.threeKG = editThreeKG.text!
+                editMenu.threeRep = editThreeRep.text!
+                editMenu.fourKG = editFourKG.text!
+                editMenu.fourRep = editFourRep.text!
+                editMenu.fiveKG = editFiveKG.text!
+                editMenu.fiveRep = editFiveRep.text!
+                
+                print("2回目成功だよ", editMenu)
+                
+                
+            }
+            
+        }
+        
+        navigationController?.popToRootViewController(animated: true)
+        
+        
+        
+    }
+    
   
 
 }

@@ -58,7 +58,7 @@
 		736ADB1721E9A23000DEBE67 /* scheduleAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scheduleAdd.swift; sourceTree = "<group>"; };
 		736ADB1921E9B29300DEBE67 /* interval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interval.swift; sourceTree = "<group>"; };
 		7394271B21F2D11400BABC3E /* setMenuDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setMenuDetail.swift; sourceTree = "<group>"; };
-		7394273B21F3F70500BABC3E /* editSetMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = editSetMenu.swift; path = "セットメニュー/editSetMenu.swift"; sourceTree = "<group>"; };
+		7394273B21F3F70500BABC3E /* editSetMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editSetMenu.swift; sourceTree = "<group>"; };
 		73B873D721E5EBEC00E897EA /* launchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = launchViewController.swift; sourceTree = "<group>"; };
 		92D9EB109B4E8224B90E27DA /* Pods-workOut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workOut.debug.xcconfig"; path = "Target Support Files/Pods-workOut/Pods-workOut.debug.xcconfig"; sourceTree = "<group>"; };
 		F93C0DA4C644FC53F63A8B12 /* Pods-workOut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workOut.release.xcconfig"; path = "Target Support Files/Pods-workOut/Pods-workOut.release.xcconfig"; sourceTree = "<group>"; };
@@ -82,6 +82,7 @@
 				7313342421E1FF3400F29007 /* setMenuTable.swift */,
 				7313342621E1FF6E00F29007 /* addSetMenu.swift */,
 				7394271B21F2D11400BABC3E /* setMenuDetail.swift */,
+				7394273B21F3F70500BABC3E /* editSetMenu.swift */,
 			);
 			path = "セットメニュー";
 			sourceTree = "<group>";
@@ -143,7 +144,6 @@
 				73551F9021E0ACBF000946DB /* AppDelegate.swift */,
 				73551F9221E0ACBF000946DB /* ViewController.swift */,
 				73551F9421E0ACBF000946DB /* Main.storyboard */,
-				7394273B21F3F70500BABC3E /* editSetMenu.swift */,
 				73551F9721E0ACC0000946DB /* Assets.xcassets */,
 				73551F9921E0ACC0000946DB /* LaunchScreen.storyboard */,
 				73B873D721E5EBEC00E897EA /* launchViewController.swift */,

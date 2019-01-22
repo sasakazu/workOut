@@ -401,6 +401,7 @@
                     <navigationItem key="navigationItem" title="トレーニング詳細" id="d4q-wi-FyB">
                         <barButtonItem key="rightBarButtonItem" title="編集" id="Csp-gq-usv">
                             <connections>
+                                <action selector="goEdit:" destination="Iza-rw-AYv" id="Rq5-Me-PIG"/>
                                 <segue destination="zLv-Cu-MoI" kind="show" identifier="goEdit" id="hPi-st-GYJ"/>
                             </connections>
                         </barButtonItem>
@@ -428,7 +429,7 @@
             </objects>
             <point key="canvasLocation" x="1565.5999999999999" y="-1097.001499250375"/>
         </scene>
-        <!--Edit Set Menu-->
+        <!--編集-->
         <scene sceneID="e8P-nt-mML">
             <objects>
                 <viewController id="zLv-Cu-MoI" customClass="editSetMenu" customModule="workOut" customModuleProvider="target" sceneMemberID="viewController">
@@ -587,6 +588,26 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="35m-TA-aVg"/>
                     </view>
+                    <navigationItem key="navigationItem" title="編集" id="PVz-HL-l1w">
+                        <barButtonItem key="rightBarButtonItem" title="完了" id="CDv-c5-fD1">
+                            <connections>
+                                <action selector="editDone:" destination="zLv-Cu-MoI" id="2sY-y1-snx"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="editFiveKG" destination="i8w-mX-jPq" id="kbo-ly-2Ls"/>
+                        <outlet property="editFiveRep" destination="zeJ-Ml-zDT" id="cjV-sO-aO7"/>
+                        <outlet property="editFourKG" destination="stW-dY-096" id="41C-WR-dVZ"/>
+                        <outlet property="editFourRep" destination="0iw-Pr-qgP" id="Msk-up-jml"/>
+                        <outlet property="editOneKG" destination="i1W-rZ-OLF" id="0aG-0p-rIs"/>
+                        <outlet property="editOneRep" destination="Lia-f9-ghQ" id="tiM-f0-oWr"/>
+                        <outlet property="editSetMenu" destination="TBK-DJ-zst" id="yTc-iA-JXi"/>
+                        <outlet property="editThreeKG" destination="iVE-bG-5KO" id="49y-o9-ghB"/>
+                        <outlet property="editThreeRep" destination="cUx-p4-pye" id="qZK-di-2L5"/>
+                        <outlet property="editTwoKG" destination="tzm-tP-BWL" id="6u4-Ag-iwn"/>
+                        <outlet property="editTwoRep" destination="QfX-kJ-qOu" id="fSR-Kv-ee3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RFg-dF-7m0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -920,7 +941,6 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="322"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="322" id="CiH-9t-Wa5"/>
                                     <constraint firstAttribute="width" constant="375" id="J6O-9T-EqO"/>
                                     <constraint firstAttribute="height" constant="322" id="QLW-Sw-swu"/>
                                 </constraints>
@@ -938,15 +958,15 @@
                             <constraint firstItem="iJT-0d-4PI" firstAttribute="leading" secondItem="X93-aB-kt4" secondAttribute="leading" id="8Zb-cr-7Xt"/>
                             <constraint firstItem="o8r-xX-9vX" firstAttribute="leading" secondItem="X93-aB-kt4" secondAttribute="leading" constant="25" id="KJj-53-w84"/>
                             <constraint firstAttribute="trailing" secondItem="iJT-0d-4PI" secondAttribute="trailing" id="LuY-vT-E7Z"/>
-                            <constraint firstItem="iJT-0d-4PI" firstAttribute="centerX" secondItem="Rbj-66-l0O" secondAttribute="centerX" id="PHa-yV-yUN"/>
+                            <constraint firstItem="o8r-xX-9vX" firstAttribute="top" secondItem="tzd-fU-QJm" secondAttribute="bottom" constant="22" id="N7D-1G-oZ5"/>
                             <constraint firstItem="X93-aB-kt4" firstAttribute="trailing" secondItem="o8r-xX-9vX" secondAttribute="trailing" constant="16" id="TTg-l9-scB"/>
                             <constraint firstItem="iJT-0d-4PI" firstAttribute="leading" secondItem="Rbj-66-l0O" secondAttribute="leading" id="UDj-jL-S9J"/>
                             <constraint firstItem="iJT-0d-4PI" firstAttribute="trailing" secondItem="X93-aB-kt4" secondAttribute="trailing" id="XlQ-dZ-szW"/>
                             <constraint firstItem="X93-aB-kt4" firstAttribute="bottom" secondItem="NZO-Ah-ZfC" secondAttribute="bottom" constant="20" id="YIM-8T-w6k"/>
-                            <constraint firstItem="o8r-xX-9vX" firstAttribute="top" secondItem="tzd-fU-QJm" secondAttribute="bottom" constant="22" id="dP8-Ti-gT8"/>
+                            <constraint firstItem="tzd-fU-QJm" firstAttribute="top" secondItem="iJT-0d-4PI" secondAttribute="bottom" constant="18" id="cSC-2c-ZNF"/>
                             <constraint firstItem="X93-aB-kt4" firstAttribute="trailing" secondItem="NZO-Ah-ZfC" secondAttribute="trailing" constant="16" id="jK0-Od-d0R"/>
-                            <constraint firstItem="tzd-fU-QJm" firstAttribute="top" secondItem="iJT-0d-4PI" secondAttribute="bottom" constant="18" id="ln8-ls-tSl"/>
                             <constraint firstItem="iJT-0d-4PI" firstAttribute="top" secondItem="X93-aB-kt4" secondAttribute="top" id="mCT-YL-csE"/>
+                            <constraint firstItem="X93-aB-kt4" firstAttribute="trailing" secondItem="tzd-fU-QJm" secondAttribute="trailing" constant="193" id="o2r-vZ-nUz"/>
                             <constraint firstItem="iJT-0d-4PI" firstAttribute="top" secondItem="X93-aB-kt4" secondAttribute="top" id="zRN-8U-TSM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="X93-aB-kt4"/>

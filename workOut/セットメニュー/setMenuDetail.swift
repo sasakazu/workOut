@@ -12,6 +12,24 @@ import RealmSwift
 class setMenuDetail: UIViewController {
     
     
+    var trainingDetailName:String = ""
+    
+    var training1setKG:String = ""
+    var training1setRep:String = ""
+    
+    var training2setKG:String = ""
+    var training2setRep:String = ""
+    
+    var training3setKG:String = ""
+    var training3setRep:String = ""
+    
+    var training4setKG:String = ""
+    var training4setRep:String = ""
+    
+    var training5setKG:String = ""
+    var training5setRep:String = ""
+    
+    
     @IBOutlet weak var trainingName: UILabel!
     @IBOutlet weak var firstKG: UILabel!
     @IBOutlet weak var firstRep: UILabel!
@@ -100,25 +118,58 @@ class setMenuDetail: UIViewController {
 //        表示
         trainingName.text = TRAININGName
         
-        firstKG.text = "\(FIRSTKG) Kg"
-        firstRep.text = "\(FIRSTRep) Rep"
+        firstKG.text = FIRSTKG
+        firstRep.text = FIRSTRep
         
-        secondKG.text = "\(SECONDKG) Kg"
-        secondRep.text = "\(SECONDRep) Rep"
+        secondKG.text = SECONDKG
+        secondRep.text = SECONDRep
         
-        thirdKG.text = "\(THIRDKG) Kg"
-        thirdRep.text = "\(THIRDRep) Rep"
+        thirdKG.text = THIRDKG
+        thirdRep.text = THIRDRep
         
-        fourthKG.text = "\(FOURTHKG) Kg"
-        fourthRep.text = "\(FOURTHRep) Rep"
+        fourthKG.text = FOURTHKG
+        fourthRep.text = FOURTHRep
         
-        fifthKG.text = "\(FIFTHKG) Kg"
-        fifthRep.text = "\(FIFTHRep) Rep"
+        fifthKG.text = FIFTHKG
+        fifthRep.text = FIFTHRep
 
       
     }
     
 
-  
+    @IBAction func goEdit(_ sender: Any) {
+        
+          performSegue(withIdentifier: "goEdit",sender: nil)
+    
+    }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any!) {
+        if (segue.identifier == "goEdit") {
+            
+            
+            let editVC: editSetMenu = (segue.destination as? editSetMenu)!
+            
+            
+            editVC.editNamePh = trainingName.text!
+            
+            editVC.oneKgPh = firstKG.text!
+            editVC.oneRepPh = firstRep.text!
+            editVC.twoKgPh = secondKG.text!
+            editVC.twoRepPh = secondRep.text!
+            editVC.threeKgPh = thirdKG.text!
+            editVC.threeRepPh = thirdRep.text!
+            editVC.fourKgPh = fourthKG.text!
+            editVC.fourRepPh = fourthRep.text!
+            editVC.fiveKgPh = fifthKG.text!
+            editVC.fiveRepPh = fifthRep.text!
+            
+            
+            
+        }
+        
+    }
+    
+    
 
 }
