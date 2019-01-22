@@ -27,6 +27,9 @@
 		736ADB1621E9A1FF00DEBE67 /* scheduleMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736ADB1521E9A1FF00DEBE67 /* scheduleMain.swift */; };
 		736ADB1821E9A23000DEBE67 /* scheduleAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736ADB1721E9A23000DEBE67 /* scheduleAdd.swift */; };
 		736ADB1A21E9B29300DEBE67 /* interval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736ADB1921E9B29300DEBE67 /* interval.swift */; };
+		736F858221F713C000924459 /* moreTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F858121F713C000924459 /* moreTable.swift */; };
+		736F858421F72BE400924459 /* 腕.png in Resources */ = {isa = PBXBuildFile; fileRef = 736F858321F72BE300924459 /* 腕.png */; };
+		736F858621F72C1D00924459 /* 足アイコン1.png in Resources */ = {isa = PBXBuildFile; fileRef = 736F858521F72C1D00924459 /* 足アイコン1.png */; };
 		7394271C21F2D11400BABC3E /* setMenuDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7394271B21F2D11400BABC3E /* setMenuDetail.swift */; };
 		7394273C21F3F70500BABC3E /* editSetMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7394273B21F3F70500BABC3E /* editSetMenu.swift */; };
 		73B873D821E5EBEC00E897EA /* launchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B873D721E5EBEC00E897EA /* launchViewController.swift */; };
@@ -57,6 +60,9 @@
 		736ADB1521E9A1FF00DEBE67 /* scheduleMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scheduleMain.swift; sourceTree = "<group>"; };
 		736ADB1721E9A23000DEBE67 /* scheduleAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scheduleAdd.swift; sourceTree = "<group>"; };
 		736ADB1921E9B29300DEBE67 /* interval.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interval.swift; sourceTree = "<group>"; };
+		736F858121F713C000924459 /* moreTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreTable.swift; sourceTree = "<group>"; };
+		736F858321F72BE300924459 /* 腕.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "腕.png"; sourceTree = "<group>"; };
+		736F858521F72C1D00924459 /* 足アイコン1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "足アイコン1.png"; sourceTree = "<group>"; };
 		7394271B21F2D11400BABC3E /* setMenuDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setMenuDetail.swift; sourceTree = "<group>"; };
 		7394273B21F3F70500BABC3E /* editSetMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editSetMenu.swift; sourceTree = "<group>"; };
 		73B873D721E5EBEC00E897EA /* launchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = launchViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +115,7 @@
 		7313342C21E2040B00F29007 /* More */ = {
 			isa = PBXGroup;
 			children = (
+				736F858121F713C000924459 /* moreTable.swift */,
 			);
 			path = More;
 			sourceTree = "<group>";
@@ -156,7 +163,9 @@
 			isa = PBXGroup;
 			children = (
 				7362932C21E4A7D000EAFDEB /* workout4.png */,
+				736F858321F72BE300924459 /* 腕.png */,
 				7362931C21E4921900EAFDEB /* text.png */,
+				736F858521F72C1D00924459 /* 足アイコン1.png */,
 				7362932221E493E400EAFDEB /* iconmonstr-calendar-6-32.png */,
 				736ADB1321E99F6A00DEBE67 /* plus.png */,
 				7362931E21E492A300EAFDEB /* disc.png */,
@@ -273,6 +282,8 @@
 				73551F9B21E0ACC0000946DB /* LaunchScreen.storyboard in Resources */,
 				7362932121E4932400EAFDEB /* time.png in Resources */,
 				73551F9821E0ACC0000946DB /* Assets.xcassets in Resources */,
+				736F858421F72BE400924459 /* 腕.png in Resources */,
+				736F858621F72C1D00924459 /* 足アイコン1.png in Resources */,
 				7362931D21E4921900EAFDEB /* text.png in Resources */,
 				73551F9621E0ACBF000946DB /* Main.storyboard in Resources */,
 				7347E66021E4629800F37443 /* play.png in Resources */,
@@ -344,6 +355,7 @@
 				736ADB1A21E9B29300DEBE67 /* interval.swift in Sources */,
 				736ADB1821E9A23000DEBE67 /* scheduleAdd.swift in Sources */,
 				73551F9321E0ACBF000946DB /* ViewController.swift in Sources */,
+				736F858221F713C000924459 /* moreTable.swift in Sources */,
 				7313342721E1FF6E00F29007 /* addSetMenu.swift in Sources */,
 				7313342B21E203D300F29007 /* workOutMusic.swift in Sources */,
 				7362932521E494A900EAFDEB /* object.swift in Sources */,

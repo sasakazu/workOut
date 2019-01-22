@@ -30,7 +30,7 @@ class editSetMenu: UIViewController, UITextFieldDelegate {
     var fiveKgPh:String = ""
     var fiveRepPh:String = ""
 
-  
+//  textField
     @IBOutlet weak var editSetMenu: UITextField!
     
     @IBOutlet weak var editOneKG: UITextField!
@@ -48,6 +48,14 @@ class editSetMenu: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var editFiveKG: UITextField!
     @IBOutlet weak var editFiveRep: UITextField!
     
+    
+//    View
+    
+    @IBOutlet weak var view1: UIView!
+    @IBOutlet weak var view2: UIView!
+    @IBOutlet weak var view3: UIView!
+    @IBOutlet weak var view4: UIView!
+    @IBOutlet weak var view5: UIView!
     
 
     override func viewDidLoad() {
@@ -71,7 +79,41 @@ class editSetMenu: UIViewController, UITextFieldDelegate {
         editFiveKG.text = fiveKgPh
         editFiveRep.text = fiveRepPh
     
-    
+        
+//        角丸
+        view1.layer.cornerRadius = 5.0
+        view2.layer.cornerRadius = 5.0
+        view3.layer.cornerRadius = 5.0
+        view4.layer.cornerRadius = 5.0
+        view5.layer.cornerRadius = 5.0
+        
+//        影・ぼかし
+        
+        view1.layer.shadowColor = UIColor.black.cgColor
+        view1.layer.shadowOpacity = 0.5
+        view1.layer.shadowOffset = CGSize(width: 3, height: 3)
+        view1.layer.shadowRadius = 5
+        
+        view2.layer.shadowColor = UIColor.black.cgColor
+        view2.layer.shadowOpacity = 0.5
+        view2.layer.shadowOffset = CGSize(width: 3, height: 3)
+        view2.layer.shadowRadius = 5
+        
+        view3.layer.shadowColor = UIColor.black.cgColor
+        view3.layer.shadowOpacity = 0.5
+        view3.layer.shadowOffset = CGSize(width: 3, height: 3)
+        view1.layer.shadowRadius = 5
+        
+        view4.layer.shadowColor = UIColor.black.cgColor
+        view4.layer.shadowOpacity = 0.5
+        view4.layer.shadowOffset = CGSize(width: 3, height: 3)
+        view4.layer.shadowRadius = 5
+        
+        view5.layer.shadowColor = UIColor.black.cgColor
+        view5.layer.shadowOpacity = 0.5
+        view5.layer.shadowOffset = CGSize(width: 3, height: 3)
+        view5.layer.shadowRadius = 5
+        
     }
     
     
