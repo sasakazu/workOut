@@ -29,7 +29,7 @@ class setMenuDetail: UIViewController {
     var training5setKG:String = ""
     var training5setRep:String = ""
     
-    
+//    Label
     @IBOutlet weak var trainingName: UILabel!
     @IBOutlet weak var firstKG: UILabel!
     @IBOutlet weak var firstRep: UILabel!
@@ -42,14 +42,13 @@ class setMenuDetail: UIViewController {
     @IBOutlet weak var fifthKG: UILabel!
     @IBOutlet weak var fifthRep: UILabel!
     
+//    View
+    
+    @IBOutlet weak var viewLayer0: UIView!
     @IBOutlet weak var viewLayer1: UIView!
-    
     @IBOutlet weak var viewLayer2: UIView!
-    
     @IBOutlet weak var viewLayer3: UIView!
-    
     @IBOutlet weak var viewLayer4: UIView!
-    
     @IBOutlet weak var viewLayer5: UIView!
     
     
@@ -75,6 +74,8 @@ class setMenuDetail: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        viewLayer0.layer.cornerRadius = 5.0
+        
         viewLayer1.layer.cornerRadius = 5.0
         
         viewLayer2.layer.cornerRadius = 5.0
@@ -86,14 +87,17 @@ class setMenuDetail: UIViewController {
         viewLayer5.layer.cornerRadius = 5.0
         
 //        影・ぼかし
+       
         
+        viewLayer0.layer.shadowColor = UIColor.black.cgColor
+        viewLayer0.layer.shadowOpacity = 0.5
+        viewLayer0.layer.shadowOffset = CGSize(width: 5, height: 5)
+        viewLayer0.layer.shadowRadius = 5
         
         viewLayer1.layer.shadowColor = UIColor.black.cgColor
         viewLayer1.layer.shadowOpacity = 0.5
         viewLayer1.layer.shadowOffset = CGSize(width: 5, height: 5)
         viewLayer1.layer.shadowRadius = 5
-        
-        
         
         viewLayer2.layer.shadowColor = UIColor.black.cgColor
         viewLayer2.layer.shadowOpacity = 0.5
