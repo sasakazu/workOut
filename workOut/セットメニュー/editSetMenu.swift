@@ -114,6 +114,20 @@ class editSetMenu: UIViewController, UITextFieldDelegate {
         view5.layer.shadowOffset = CGSize(width: 3, height: 3)
         view5.layer.shadowRadius = 5
         
+        editSetMenu.delegate = self
+        
+        editOneKG.delegate = self
+        editOneRep.delegate = self
+        editTwoKG.delegate = self
+        editTwoRep.delegate = self
+        editThreeKG.delegate = self
+        editThreeRep.delegate = self
+        editFourKG.delegate = self
+        editFourRep.delegate = self
+        editFiveKG.delegate = self
+        editFiveRep.delegate = self
+        
+        
     }
     
     
@@ -154,6 +168,14 @@ class editSetMenu: UIViewController, UITextFieldDelegate {
         
         
         
+    }
+    
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        // キーボードを閉じる
+        textField.resignFirstResponder()
+        
+        return true
     }
     
   
