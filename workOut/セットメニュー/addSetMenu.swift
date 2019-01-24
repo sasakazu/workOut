@@ -34,7 +34,20 @@ class addSetMenu: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        setNameTF.delegate = self
      
+        oneKGTF.delegate = self
+        oneRepTF.delegate = self
+        twoKGTF.delegate = self
+        twoRepTF.delegate = self
+        threeKGTF.delegate = self
+        threeRepTF.delegate = self
+        fourKGTF.delegate = self
+        fourRepTF.delegate = self
+        fiveKGTF.delegate = self
+        fiveRepTF.delegate = self
+        
+        
     }
     
 
@@ -72,6 +85,15 @@ class addSetMenu: UIViewController, UITextFieldDelegate {
         
         self.navigationController?.popViewController(animated: true)
         
+    }
+    
+    
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        // キーボードを閉じる
+        textField.resignFirstResponder()
+        
+        return true
     }
     
 
