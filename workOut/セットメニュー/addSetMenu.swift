@@ -48,6 +48,12 @@ class addSetMenu: UIViewController, UITextFieldDelegate {
         fiveRepTF.delegate = self
         
         
+        
+        
+        
+        
+        
+        
     }
     
 
