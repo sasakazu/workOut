@@ -62,7 +62,31 @@ class setMenuTable: UIViewController, UITableViewDelegate, UITableViewDataSource
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexpath: IndexPath)->UITableViewCell {
-        let cell: UITableViewCell = UITableViewCell(style: UITableViewCell.CellStyle.default, reuseIdentifier: "Cell")
+        
+        
+        var cell: UITableViewCell = UITableViewCell(style: UITableViewCell.CellStyle.default, reuseIdentifier: "Cell")
+        
+
+        
+        if indexpath.row % 2 == 0 {
+            cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexpath)
+            
+
+            cell.backgroundColor = #colorLiteral(red: 0.921431005, green: 0.9214526415, blue: 0.9214410186, alpha: 1)
+            cell.textLabel?.textColor = #colorLiteral(red: 0.1298420429, green: 0.1298461258, blue: 0.1298439503, alpha: 1)
+            cell.textLabel?.font = UIFont.systemFont(ofSize: 20)
+            
+            
+        } else {
+            cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexpath)
+            
+            
+            cell.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
+            cell.textLabel?.textColor = #colorLiteral(red: 0.1298420429, green: 0.1298461258, blue: 0.1298439503, alpha: 1)
+            cell.textLabel?.font = UIFont.systemFont(ofSize: 20)
+
+            
+        }
         
         let object = setMenuItem[indexpath.row]
         
