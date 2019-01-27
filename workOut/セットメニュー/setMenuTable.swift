@@ -33,11 +33,15 @@ class setMenuTable: UIViewController, UITableViewDelegate, UITableViewDataSource
     
     
     @IBOutlet weak var setMenuTableView: UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         let realm = try! Realm()
         setMenuItem = realm.objects(SetMenu.self).sorted(byKeyPath: "order")
+
+        
         
         print(Realm.Configuration.defaultConfiguration.fileURL!)
         
@@ -126,7 +130,25 @@ class setMenuTable: UIViewController, UITableViewDelegate, UITableViewDataSource
     }
     
     
+//    delete
     
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        
+        
+        if(editingStyle == UITableViewCell.EditingStyle.delete) {
+            do{
+                let realm = try Realm()
+                try realm.write {
+                    realm.delete(self.setMenuItem[indexPath.row])
+                }
+                tableView.deleteRows(at: [indexPath as IndexPath], with: UITableView.RowAnimation.fade)
+            }catch{
+                
+                
+                self.setMenuTableView.reloadData()
+            }
+        }
+    }
     
   
 }
