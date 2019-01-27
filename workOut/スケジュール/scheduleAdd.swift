@@ -66,6 +66,7 @@ class scheduleAdd: UIViewController {
         backBtn.addTarget(self, action: #selector(onbackClick(_:)), for: .touchUpInside)
         view.addSubview(backBtn)
         
+    
     }
     
     //画面遷移(カレンダーページ)
