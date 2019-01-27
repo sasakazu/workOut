@@ -74,7 +74,7 @@ class setMenuTable: UIViewController, UITableViewDelegate, UITableViewDataSource
 
             cell.backgroundColor = #colorLiteral(red: 0.921431005, green: 0.9214526415, blue: 0.9214410186, alpha: 1)
             cell.textLabel?.textColor = #colorLiteral(red: 0.1298420429, green: 0.1298461258, blue: 0.1298439503, alpha: 1)
-            cell.textLabel?.font = UIFont.systemFont(ofSize: 20)
+            cell.textLabel?.font = UIFont.systemFont(ofSize: 18)
             
             
         } else {
@@ -83,7 +83,7 @@ class setMenuTable: UIViewController, UITableViewDelegate, UITableViewDataSource
             
             cell.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
             cell.textLabel?.textColor = #colorLiteral(red: 0.1298420429, green: 0.1298461258, blue: 0.1298439503, alpha: 1)
-            cell.textLabel?.font = UIFont.systemFont(ofSize: 20)
+            cell.textLabel?.font = UIFont.systemFont(ofSize: 18)
 
             
         }
