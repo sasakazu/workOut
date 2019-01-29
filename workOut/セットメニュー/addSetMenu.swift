@@ -30,9 +30,51 @@ class addSetMenu: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var fiveRepTF: UITextField!
     
     
+    @IBOutlet weak var view1: UIView!
+    @IBOutlet weak var view2: UIView!
+    @IBOutlet weak var view3: UIView!
+    @IBOutlet weak var view4: UIView!
+    @IBOutlet weak var view5: UIView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //        角丸
+        view1.layer.cornerRadius = 5.0
+        view2.layer.cornerRadius = 5.0
+        view3.layer.cornerRadius = 5.0
+        view4.layer.cornerRadius = 5.0
+        view5.layer.cornerRadius = 5.0
+        
+        //        影・ぼかし
+        
+        view1.layer.shadowColor = UIColor.black.cgColor
+        view1.layer.shadowOpacity = 0.3
+        view1.layer.shadowOffset = CGSize(width: 3, height: 3)
+        view1.layer.shadowRadius = 5
+        
+        view2.layer.shadowColor = UIColor.black.cgColor
+        view2.layer.shadowOpacity = 0.3
+        view2.layer.shadowOffset = CGSize(width: 3, height: 3)
+        view2.layer.shadowRadius = 5
+        
+        view3.layer.shadowColor = UIColor.black.cgColor
+        view3.layer.shadowOpacity = 0.3
+        view3.layer.shadowOffset = CGSize(width: 3, height: 3)
+        view1.layer.shadowRadius = 5
+        
+        view4.layer.shadowColor = UIColor.black.cgColor
+        view4.layer.shadowOpacity = 0.3
+        view4.layer.shadowOffset = CGSize(width: 3, height: 3)
+        view4.layer.shadowRadius = 5
+        
+        view5.layer.shadowColor = UIColor.black.cgColor
+        view5.layer.shadowOpacity = 0.3
+        view5.layer.shadowOffset = CGSize(width: 3, height: 3)
+        view5.layer.shadowRadius = 5
+        
+        
 
         setNameTF.delegate = self
      
@@ -46,11 +88,6 @@ class addSetMenu: UIViewController, UITextFieldDelegate {
         fourRepTF.delegate = self
         fiveKGTF.delegate = self
         fiveRepTF.delegate = self
-        
-        
-        
-        
-        
         
         
         

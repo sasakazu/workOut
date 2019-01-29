@@ -90,27 +90,27 @@ class editSetMenu: UIViewController, UITextFieldDelegate {
 //        影・ぼかし
         
         view1.layer.shadowColor = UIColor.black.cgColor
-        view1.layer.shadowOpacity = 0.5
+        view1.layer.shadowOpacity = 0.3
         view1.layer.shadowOffset = CGSize(width: 3, height: 3)
         view1.layer.shadowRadius = 5
         
         view2.layer.shadowColor = UIColor.black.cgColor
-        view2.layer.shadowOpacity = 0.5
+        view2.layer.shadowOpacity = 0.3
         view2.layer.shadowOffset = CGSize(width: 3, height: 3)
         view2.layer.shadowRadius = 5
         
         view3.layer.shadowColor = UIColor.black.cgColor
-        view3.layer.shadowOpacity = 0.5
+        view3.layer.shadowOpacity = 0.3
         view3.layer.shadowOffset = CGSize(width: 3, height: 3)
         view1.layer.shadowRadius = 5
         
         view4.layer.shadowColor = UIColor.black.cgColor
-        view4.layer.shadowOpacity = 0.5
+        view4.layer.shadowOpacity = 0.3
         view4.layer.shadowOffset = CGSize(width: 3, height: 3)
         view4.layer.shadowRadius = 5
         
         view5.layer.shadowColor = UIColor.black.cgColor
-        view5.layer.shadowOpacity = 0.5
+        view5.layer.shadowOpacity = 0.3
         view5.layer.shadowOffset = CGSize(width: 3, height: 3)
         view5.layer.shadowRadius = 5
         

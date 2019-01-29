@@ -75,34 +75,38 @@ class setMenuDetail: UIViewController {
         super.viewDidLoad()
         
     
+        //        角丸
+        viewLayer1.layer.cornerRadius = 5.0
+        viewLayer2.layer.cornerRadius = 5.0
+        viewLayer3.layer.cornerRadius = 5.0
+        viewLayer4.layer.cornerRadius = 5.0
+        viewLayer5.layer.cornerRadius = 5.0
         
 //        影・ぼかし
        
         
-
-        
         viewLayer1.layer.shadowColor = UIColor.black.cgColor
-        viewLayer1.layer.shadowOpacity = 0.5
+        viewLayer1.layer.shadowOpacity = 0.3
         viewLayer1.layer.shadowOffset = CGSize(width: 3, height: 3)
         viewLayer1.layer.shadowRadius = 5
         
         viewLayer2.layer.shadowColor = UIColor.black.cgColor
-        viewLayer2.layer.shadowOpacity = 0.5
+        viewLayer2.layer.shadowOpacity = 0.3
         viewLayer2.layer.shadowOffset = CGSize(width: 3, height: 3)
         viewLayer2.layer.shadowRadius = 5
         
         viewLayer3.layer.shadowColor = UIColor.black.cgColor
-        viewLayer3.layer.shadowOpacity = 0.5
+        viewLayer3.layer.shadowOpacity = 0.3
         viewLayer3.layer.shadowOffset = CGSize(width: 3, height: 3)
         viewLayer3.layer.shadowRadius = 5
         
         viewLayer4.layer.shadowColor = UIColor.black.cgColor
-        viewLayer4.layer.shadowOpacity = 0.5
+        viewLayer4.layer.shadowOpacity = 0.3
         viewLayer4.layer.shadowOffset = CGSize(width: 3, height: 3)
         viewLayer4.layer.shadowRadius = 5
         
         viewLayer5.layer.shadowColor = UIColor.black.cgColor
-        viewLayer5.layer.shadowOpacity = 0.5
+        viewLayer5.layer.shadowOpacity = 0.3
         viewLayer5.layer.shadowOffset = CGSize(width: 3, height: 3)
         viewLayer5.layer.shadowRadius = 5
         
