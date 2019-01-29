@@ -63,7 +63,7 @@ class scheduleMain: UIViewController, FSCalendarDelegate, FSCalendarDataSource, 
         addBtn.setTitleColor(.white, for: UIControl.State())
         addBtn.backgroundColor = .orange
         addBtn.layer.cornerRadius = 30.0
-        addBtn.addTarget(self, action: #selector(onClick(_:)), for: .touchUpInside)
+//        addBtn.addTarget(self, action: #selector(onClick(_:)), for: .touchUpInside)
         view.addSubview(addBtn)
         
         
@@ -126,11 +126,11 @@ class scheduleMain: UIViewController, FSCalendarDelegate, FSCalendarDataSource, 
     }
     
     
-    @objc func onClick(_: UIButton) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let SecondController = storyboard.instantiateViewController(withIdentifier: "Insert")
-        present(SecondController, animated: true, completion: nil)
-    }
+//    @objc func onClick(_: UIButton) {
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        let SecondController = storyboard.instantiateViewController(withIdentifier: "Insert")
+//        present(SecondController, animated: true, completion: nil)
+//    }
     
     
     //カレンダー処理(スケジュール表示処理)

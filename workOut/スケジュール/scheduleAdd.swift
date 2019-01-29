@@ -56,23 +56,23 @@ class scheduleAdd: UIViewController {
         eventInsert.addTarget(self, action: #selector(saveEvent(_:)), for: .touchUpInside)
         view.addSubview(eventInsert)
         
-  
-        backBtn.setTitle("戻る", for: UIControl.State())
-        backBtn.setTitleColor(.orange, for: UIControl.State())
-        backBtn.backgroundColor = .white
-        backBtn.layer.cornerRadius = 10.0
-        backBtn.layer.borderColor = UIColor.orange.cgColor
-        backBtn.layer.borderWidth = 1.0
-        backBtn.addTarget(self, action: #selector(onbackClick(_:)), for: .touchUpInside)
-        view.addSubview(backBtn)
+//
+//        backBtn.setTitle("戻る", for: UIControl.State())
+//        backBtn.setTitleColor(.orange, for: UIControl.State())
+//        backBtn.backgroundColor = .white
+//        backBtn.layer.cornerRadius = 10.0
+//        backBtn.layer.borderColor = UIColor.orange.cgColor
+//        backBtn.layer.borderWidth = 1.0
+//        backBtn.addTarget(self, action: #selector(onbackClick(_:)), for: .touchUpInside)
+//        view.addSubview(backBtn)
         
     
     }
     
-    //画面遷移(カレンダーページ)
-    @objc func onbackClick(_: UIButton) {
-        dismiss(animated: true, completion: nil)
-    }
+//    //画面遷移(カレンダーページ)
+//    @objc func onbackClick(_: UIButton) {
+//        dismiss(animated: true, completion: nil)
+//    }
     
     //日付フォーム
     @objc func picker(_ sender:UIDatePicker){

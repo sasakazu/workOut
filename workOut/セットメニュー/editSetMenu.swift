@@ -178,6 +178,13 @@ class editSetMenu: UIViewController, UITextFieldDelegate {
         return true
     }
     
+//    別の場所タップで閉じる
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        self.view.endEditing(true)
+    }
+    
   
 
 }
