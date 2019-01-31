@@ -17,7 +17,9 @@ let h2 = UIScreen.main.bounds.size.height
 class scheduleAdd: UIViewController {
     
     
-    @IBOutlet weak var eventText: UITextView!
+//    @IBOutlet weak var eventText: UITextView!
+    
+    @IBOutlet weak var eventText: UITextField!
     @IBOutlet weak var y: UIDatePicker!
     @IBOutlet weak var y_text: UILabel!
     
@@ -49,12 +51,12 @@ class scheduleAdd: UIViewController {
         y_text.textAlignment = .center
         view.addSubview(y_text)
         
-        eventInsert.setTitle("スケジュールに追加！", for: UIControl.State())
-        eventInsert.setTitleColor(.white, for: UIControl.State())
-        eventInsert.backgroundColor = .orange
-        eventInsert.layer.cornerRadius = 10.0
-        eventInsert.addTarget(self, action: #selector(saveEvent(_:)), for: .touchUpInside)
-        view.addSubview(eventInsert)
+//        eventInsert.setTitle("スケジュールに追加！", for: UIControl.State())
+//        eventInsert.setTitleColor(.white, for: UIControl.State())
+//        eventInsert.backgroundColor = .orange
+//        eventInsert.layer.cornerRadius = 10.0
+//        eventInsert.addTarget(self, action: #selector(saveEvent(_:)), for: .touchUpInside)
+//        view.addSubview(eventInsert)
         
 //
 //        backBtn.setTitle("戻る", for: UIControl.State())
@@ -82,8 +84,30 @@ class scheduleAdd: UIViewController {
         view.addSubview(y_text)
     }
     
-    //DB書き込み処理
-    @objc func saveEvent(_ : UIButton){
+//    //DB書き込み処理
+//    @objc func saveEvent(_ : UIButton){
+//        print("データ書き込み開始")
+//
+//        let realm = try! Realm()
+//
+//        try! realm.write {
+//            //日付表示の内容とスケジュール入力の内容が書き込まれる。
+//            let Events = [Event(value: ["date": y_text.text, "event": eventText.text])]
+//            realm.add(Events)
+//            print("データ書き込み中")
+//        }
+//
+//        print("データ書き込み完了")
+//
+//        //前のページに戻る
+//        dismiss(animated: true, completion: nil)
+//
+//    }
+    
+    
+    @IBAction func addEvent(_ sender: Any) {
+        
+        
         print("データ書き込み開始")
         
         let realm = try! Realm()
@@ -97,10 +121,14 @@ class scheduleAdd: UIViewController {
         
         print("データ書き込み完了")
         
+        self.navigationController?.popViewController(animated: true)
+        
         //前のページに戻る
-        dismiss(animated: true, completion: nil)
+//        dismiss(animated: true, completion: nil)
+        
         
     }
+    
     
 }
 

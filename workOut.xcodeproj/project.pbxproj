@@ -16,9 +16,6 @@
 		73551F9621E0ACBF000946DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73551F9421E0ACBF000946DB /* Main.storyboard */; };
 		73551F9821E0ACC0000946DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73551F9721E0ACC0000946DB /* Assets.xcassets */; };
 		73551F9B21E0ACC0000946DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73551F9921E0ACC0000946DB /* LaunchScreen.storyboard */; };
-		7362931D21E4921900EAFDEB /* text.png in Resources */ = {isa = PBXBuildFile; fileRef = 7362931C21E4921900EAFDEB /* text.png */; };
-		7362931F21E492A400EAFDEB /* disc.png in Resources */ = {isa = PBXBuildFile; fileRef = 7362931E21E492A300EAFDEB /* disc.png */; };
-		7362932121E4932400EAFDEB /* time.png in Resources */ = {isa = PBXBuildFile; fileRef = 7362932021E4932300EAFDEB /* time.png */; };
 		7362932321E493E500EAFDEB /* iconmonstr-calendar-6-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 7362932221E493E400EAFDEB /* iconmonstr-calendar-6-32.png */; };
 		7362932521E494A900EAFDEB /* object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7362932421E494A900EAFDEB /* object.swift */; };
 		7362932721E4966F00EAFDEB /* media.png in Resources */ = {isa = PBXBuildFile; fileRef = 7362932621E4966F00EAFDEB /* media.png */; };
@@ -30,6 +27,8 @@
 		736F858221F713C000924459 /* moreTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736F858121F713C000924459 /* moreTable.swift */; };
 		736F858421F72BE400924459 /* 腕.png in Resources */ = {isa = PBXBuildFile; fileRef = 736F858321F72BE300924459 /* 腕.png */; };
 		736F858621F72C1D00924459 /* 足アイコン1.png in Resources */ = {isa = PBXBuildFile; fileRef = 736F858521F72C1D00924459 /* 足アイコン1.png */; };
+		738A5CFA2202E67500541E8A /* set.png in Resources */ = {isa = PBXBuildFile; fileRef = 738A5CF92202E67100541E8A /* set.png */; };
+		738A5CFC2202EAEC00541E8A /* iconmonstr-menu-thin-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 738A5CFB2202EAE900541E8A /* iconmonstr-menu-thin-64.png */; };
 		7394271C21F2D11400BABC3E /* setMenuDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7394271B21F2D11400BABC3E /* setMenuDetail.swift */; };
 		7394273C21F3F70500BABC3E /* editSetMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7394273B21F3F70500BABC3E /* editSetMenu.swift */; };
 		73B873D821E5EBEC00E897EA /* launchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B873D721E5EBEC00E897EA /* launchViewController.swift */; };
@@ -49,9 +48,6 @@
 		73551F9721E0ACC0000946DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73551F9A21E0ACC0000946DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73551F9C21E0ACC0000946DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7362931C21E4921900EAFDEB /* text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text.png; sourceTree = "<group>"; };
-		7362931E21E492A300EAFDEB /* disc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disc.png; sourceTree = "<group>"; };
-		7362932021E4932300EAFDEB /* time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time.png; sourceTree = "<group>"; };
 		7362932221E493E400EAFDEB /* iconmonstr-calendar-6-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-calendar-6-32.png"; sourceTree = "<group>"; };
 		7362932421E494A900EAFDEB /* object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = object.swift; sourceTree = "<group>"; };
 		7362932621E4966F00EAFDEB /* media.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = media.png; sourceTree = "<group>"; };
@@ -63,6 +59,8 @@
 		736F858121F713C000924459 /* moreTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreTable.swift; sourceTree = "<group>"; };
 		736F858321F72BE300924459 /* 腕.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "腕.png"; sourceTree = "<group>"; };
 		736F858521F72C1D00924459 /* 足アイコン1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "足アイコン1.png"; sourceTree = "<group>"; };
+		738A5CF92202E67100541E8A /* set.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = set.png; sourceTree = "<group>"; };
+		738A5CFB2202EAE900541E8A /* iconmonstr-menu-thin-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-menu-thin-64.png"; sourceTree = "<group>"; };
 		7394271B21F2D11400BABC3E /* setMenuDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setMenuDetail.swift; sourceTree = "<group>"; };
 		7394273B21F3F70500BABC3E /* editSetMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editSetMenu.swift; sourceTree = "<group>"; };
 		73B873D721E5EBEC00E897EA /* launchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = launchViewController.swift; sourceTree = "<group>"; };
@@ -164,12 +162,11 @@
 			children = (
 				7362932C21E4A7D000EAFDEB /* workout4.png */,
 				736F858321F72BE300924459 /* 腕.png */,
-				7362931C21E4921900EAFDEB /* text.png */,
+				738A5CF92202E67100541E8A /* set.png */,
+				738A5CFB2202EAE900541E8A /* iconmonstr-menu-thin-64.png */,
 				736F858521F72C1D00924459 /* 足アイコン1.png */,
 				7362932221E493E400EAFDEB /* iconmonstr-calendar-6-32.png */,
 				736ADB1321E99F6A00DEBE67 /* plus.png */,
-				7362931E21E492A300EAFDEB /* disc.png */,
-				7362932021E4932300EAFDEB /* time.png */,
 				7362932621E4966F00EAFDEB /* media.png */,
 				7347E65F21E4629800F37443 /* play.png */,
 			);
@@ -276,19 +273,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7362931F21E492A400EAFDEB /* disc.png in Resources */,
 				7362932721E4966F00EAFDEB /* media.png in Resources */,
+				738A5CFC2202EAEC00541E8A /* iconmonstr-menu-thin-64.png in Resources */,
 				7362932321E493E500EAFDEB /* iconmonstr-calendar-6-32.png in Resources */,
 				73551F9B21E0ACC0000946DB /* LaunchScreen.storyboard in Resources */,
-				7362932121E4932400EAFDEB /* time.png in Resources */,
 				73551F9821E0ACC0000946DB /* Assets.xcassets in Resources */,
 				736F858421F72BE400924459 /* 腕.png in Resources */,
 				736F858621F72C1D00924459 /* 足アイコン1.png in Resources */,
-				7362931D21E4921900EAFDEB /* text.png in Resources */,
 				73551F9621E0ACBF000946DB /* Main.storyboard in Resources */,
 				7347E66021E4629800F37443 /* play.png in Resources */,
 				7362932D21E4A7D000EAFDEB /* workout4.png in Resources */,
 				736ADB1421E99F6B00DEBE67 /* plus.png in Resources */,
+				738A5CFA2202E67500541E8A /* set.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
