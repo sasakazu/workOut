@@ -74,6 +74,9 @@ class setMenuDetail: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        trainingName.layer.cornerRadius = 5
+        trainingName.layer.masksToBounds = true
+        
     
         //        角丸
         viewLayer1.layer.cornerRadius = 5.0

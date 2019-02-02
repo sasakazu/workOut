@@ -47,18 +47,13 @@ class scheduleMain: UIViewController, FSCalendarDelegate, FSCalendarDataSource, 
         
         view.addSubview(dateView)
         
-        //日付表示設定
-        Date.text = ""
-        Date.font = UIFont.systemFont(ofSize: 60.0)
-        Date.textColor = .black
-        view.addSubview(Date)
         
         
         //スケジュール内容表示設定
         labelDate.text = ""
         labelDate.font = UIFont.systemFont(ofSize: 18.0)
         view.addSubview(labelDate)
-        
+
         addBtn.setTitle("+", for: UIControl.State())
         addBtn.setTitleColor(.white, for: UIControl.State())
         addBtn.backgroundColor = .orange
