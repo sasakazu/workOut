@@ -11,6 +11,8 @@ target 'workOut' do
   pod 'FSCalendar'
   pod 'CalculateCalendarLogic'
   
+  pod 'Firebase'
+  pod 'Firebase/AdMob'
   
   
 end

@@ -38,7 +38,7 @@ class scheduleMain: UIViewController, FSCalendarDelegate, FSCalendarDataSource, 
         //カレンダー設定
         self.dateView.dataSource = self
         self.dateView.delegate = self
-//        self.dateView.today = false
+//        self.dateView.today = 
         self.dateView.tintColor = .red
         self.view.backgroundColor = .white
         dateView.backgroundColor = .white
