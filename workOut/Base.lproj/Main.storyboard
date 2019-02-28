@@ -247,7 +247,7 @@
                                             <constraint firstAttribute="width" constant="62" id="OU8-je-BKu"/>
                                             <constraint firstAttribute="height" constant="26" id="ipq-yi-jjj"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="32"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -257,7 +257,7 @@
                                             <constraint firstAttribute="height" constant="26.5" id="Ogh-Zd-meA"/>
                                             <constraint firstAttribute="width" constant="51" id="oEY-O6-69v"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -267,7 +267,7 @@
                                             <constraint firstAttribute="height" constant="33.5" id="Bg7-OS-4Ln"/>
                                             <constraint firstAttribute="width" constant="67" id="zpo-Ne-gXa"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -277,7 +277,7 @@
                                             <constraint firstAttribute="height" constant="21" id="CqO-FT-scg"/>
                                             <constraint firstAttribute="width" constant="23" id="MYA-wl-yio"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -287,7 +287,7 @@
                                             <constraint firstAttribute="width" constant="26" id="KkC-bx-2VA"/>
                                             <constraint firstAttribute="height" constant="21" id="j8E-ej-5gn"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -320,7 +320,7 @@
                                             <constraint firstAttribute="width" constant="62" id="dGc-lX-Xc6"/>
                                             <constraint firstAttribute="height" constant="26" id="ehn-S0-EXl"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="32"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -330,7 +330,7 @@
                                             <constraint firstAttribute="height" constant="26.5" id="Ffq-1b-2uO"/>
                                             <constraint firstAttribute="width" constant="51" id="Ku0-Ba-9tc"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -340,7 +340,7 @@
                                             <constraint firstAttribute="height" constant="33.5" id="5lT-1O-MFh"/>
                                             <constraint firstAttribute="width" constant="71" id="aKZ-uX-TWY"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -350,7 +350,7 @@
                                             <constraint firstAttribute="width" constant="23" id="9OJ-4C-Dra"/>
                                             <constraint firstAttribute="height" constant="21" id="Mo5-5h-82Y"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -360,7 +360,7 @@
                                             <constraint firstAttribute="height" constant="21" id="4o1-4R-SBH"/>
                                             <constraint firstAttribute="width" constant="26" id="exO-NW-sT4"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -393,7 +393,7 @@
                                             <constraint firstAttribute="height" constant="26" id="PhU-oQ-gSN"/>
                                             <constraint firstAttribute="width" constant="62" id="Rui-8D-iNZ"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="32"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -403,7 +403,7 @@
                                             <constraint firstAttribute="width" constant="51" id="DcH-k8-B15"/>
                                             <constraint firstAttribute="height" constant="26.5" id="FBj-Pf-MCc"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -413,7 +413,7 @@
                                             <constraint firstAttribute="width" constant="67" id="SEf-XR-rHz"/>
                                             <constraint firstAttribute="height" constant="33.5" id="pBc-Qg-TW1"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -423,7 +423,7 @@
                                             <constraint firstAttribute="height" constant="21" id="9Qm-wU-ekb"/>
                                             <constraint firstAttribute="width" constant="23" id="zdn-Wg-Wyq"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -433,7 +433,7 @@
                                             <constraint firstAttribute="width" constant="26" id="NVB-Xp-5i5"/>
                                             <constraint firstAttribute="height" constant="21" id="bQF-Yq-h3M"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -465,7 +465,7 @@
                                             <constraint firstAttribute="height" constant="26" id="4Jb-gE-bxX"/>
                                             <constraint firstAttribute="width" constant="62" id="z8V-4k-6sz"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="32"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -475,7 +475,7 @@
                                             <constraint firstAttribute="width" constant="51" id="2k9-hu-H7G"/>
                                             <constraint firstAttribute="height" constant="26.5" id="YCI-Gk-50f"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -485,7 +485,7 @@
                                             <constraint firstAttribute="height" constant="33.5" id="FqP-rc-cdJ"/>
                                             <constraint firstAttribute="width" constant="67" id="ZdB-Fb-yRq"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -495,7 +495,7 @@
                                             <constraint firstAttribute="width" constant="23" id="dmk-Ua-10v"/>
                                             <constraint firstAttribute="height" constant="21" id="pjD-NS-bdX"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -505,7 +505,7 @@
                                             <constraint firstAttribute="width" constant="26" id="Pza-Sb-J93"/>
                                             <constraint firstAttribute="height" constant="21" id="wSZ-uw-cIR"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -536,7 +536,7 @@
                                             <constraint firstAttribute="width" constant="62" id="fbE-Dc-DG7"/>
                                             <constraint firstAttribute="height" constant="36" id="z2u-C8-zGb"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="32"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -546,7 +546,7 @@
                                             <constraint firstAttribute="width" constant="51" id="OCu-q0-adk"/>
                                             <constraint firstAttribute="height" constant="26" id="RB2-1T-vj7"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -556,7 +556,7 @@
                                             <constraint firstAttribute="height" constant="33.5" id="FHa-Fc-ZIm"/>
                                             <constraint firstAttribute="width" constant="67" id="rze-Y5-DfB"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="28"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -566,7 +566,7 @@
                                             <constraint firstAttribute="width" constant="23" id="hLG-nY-leQ"/>
                                             <constraint firstAttribute="height" constant="20" id="oQr-qW-eN3"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -576,7 +576,7 @@
                                             <constraint firstAttribute="height" constant="20" id="KIx-Vp-fAR"/>
                                             <constraint firstAttribute="width" constant="26" id="Na3-BJ-9CN"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -605,7 +605,7 @@
                                     <constraint firstAttribute="width" constant="343" id="T9b-Jm-Uea"/>
                                     <constraint firstAttribute="height" constant="53" id="jQe-i5-mCn"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="31"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <color key="textColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -688,7 +688,7 @@
                                             <constraint firstAttribute="height" constant="36" id="JTD-Dl-R2w"/>
                                             <constraint firstAttribute="width" constant="76" id="kXE-fn-edF"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -716,7 +716,7 @@
                                             <constraint firstAttribute="height" constant="21" id="HTp-rO-I7k"/>
                                             <constraint firstAttribute="width" constant="23" id="u04-Dv-rv4"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -726,7 +726,7 @@
                                             <constraint firstAttribute="height" constant="21" id="h72-GR-jjW"/>
                                             <constraint firstAttribute="width" constant="26" id="hSV-zE-VtJ"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -760,7 +760,7 @@
                                             <constraint firstAttribute="width" constant="76" id="CmR-23-kBd"/>
                                             <constraint firstAttribute="height" constant="36" id="E7i-nN-Kjk"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -788,7 +788,7 @@
                                             <constraint firstAttribute="height" constant="21" id="c3V-Qf-oc5"/>
                                             <constraint firstAttribute="width" constant="23" id="nwc-1Y-Sdi"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -798,7 +798,7 @@
                                             <constraint firstAttribute="height" constant="21" id="bvH-LF-7rL"/>
                                             <constraint firstAttribute="width" constant="26" id="ir3-ad-RaP"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -830,7 +830,7 @@
                                             <constraint firstAttribute="width" constant="76" id="Jim-fR-ZQl"/>
                                             <constraint firstAttribute="height" constant="36" id="xWa-yb-9xu"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -857,7 +857,7 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="Lww-Df-xgV"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -867,7 +867,7 @@
                                             <constraint firstAttribute="height" constant="21" id="I0C-jX-woG"/>
                                             <constraint firstAttribute="width" constant="26" id="ye4-i0-RU8"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -908,7 +908,7 @@
                                             <constraint firstAttribute="height" constant="36" id="MnF-iG-BV6"/>
                                             <constraint firstAttribute="width" constant="76" id="txp-Xz-Xn9"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -936,7 +936,7 @@
                                             <constraint firstAttribute="height" constant="21" id="Te4-ms-e5F"/>
                                             <constraint firstAttribute="width" constant="23" id="Tgj-x8-kQj"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -946,7 +946,7 @@
                                             <constraint firstAttribute="height" constant="21" id="qZb-XZ-ieY"/>
                                             <constraint firstAttribute="width" constant="26" id="sw5-Zn-lRN"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -978,7 +978,7 @@
                                             <constraint firstAttribute="height" constant="36" id="SSA-JC-QIW"/>
                                             <constraint firstAttribute="width" constant="76" id="zyg-u0-Pqn"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -1016,7 +1016,7 @@
                                             <constraint firstAttribute="height" constant="21" id="Add-g3-DeI"/>
                                             <constraint firstAttribute="width" constant="26" id="bfG-mR-3Wb"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -1131,7 +1131,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="セットメニュー" id="y7h-YF-KCe">
                         <barButtonItem key="leftBarButtonItem" title="編集" id="ffs-GE-MDH"/>
-                        <barButtonItem key="rightBarButtonItem" title="追加" id="XAE-CS-XJ7">
+                        <barButtonItem key="rightBarButtonItem" title="NEW" id="XAE-CS-XJ7">
                             <connections>
                                 <segue destination="7rp-5w-mc8" kind="show" id="78b-K1-Ga3"/>
                             </connections>
@@ -1176,12 +1176,12 @@
                                                     <constraint firstAttribute="height" constant="36" id="Vwz-lp-H1I"/>
                                                     <constraint firstAttribute="width" constant="80" id="rgI-Uf-WZ6"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="10" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UVd-pM-kkU">
-                                                <rect key="frame" x="213" y="20" width="73" height="36"/>
+                                                <rect key="frame" x="213" y="20" width="74" height="36"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="36" id="pzf-Dl-eXx"/>
                                                 </constraints>
@@ -1190,8 +1190,8 @@
                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                             </textField>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rep" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c5E-4u-5Kz">
-                                                <rect key="frame" x="305" y="28" width="31" height="20"/>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <rect key="frame" x="306" y="28" width="30" height="20"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1201,7 +1201,7 @@
                                                     <constraint firstAttribute="height" constant="20" id="3Bn-qB-J6d"/>
                                                     <constraint firstAttribute="width" constant="23" id="hUH-8l-ajr"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1242,7 +1242,7 @@
                                                     <constraint firstAttribute="height" constant="36" id="5LB-Dk-BxE"/>
                                                     <constraint firstAttribute="width" constant="80" id="Rly-C3-rwe"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1270,7 +1270,7 @@
                                                     <constraint firstAttribute="height" constant="20" id="F2d-N7-dN8"/>
                                                     <constraint firstAttribute="width" constant="31" id="hA9-RG-cbf"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1280,7 +1280,7 @@
                                                     <constraint firstAttribute="width" constant="23" id="Cie-yZ-BQb"/>
                                                     <constraint firstAttribute="height" constant="20" id="mXh-gC-Fdm"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1312,7 +1312,7 @@
                                                     <constraint firstAttribute="height" constant="36" id="fFg-PG-7VE"/>
                                                     <constraint firstAttribute="width" constant="80" id="uPt-Od-5HI"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1331,7 +1331,7 @@
                                                     <constraint firstAttribute="height" constant="20" id="OBt-nE-6EV"/>
                                                     <constraint firstAttribute="width" constant="23" id="dQ3-iC-qkD"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1350,7 +1350,7 @@
                                                     <constraint firstAttribute="width" constant="31" id="4ha-Z7-Jad"/>
                                                     <constraint firstAttribute="height" constant="20" id="8RT-XJ-vw2"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1382,7 +1382,7 @@
                                                     <constraint firstAttribute="height" constant="36" id="Z5e-PF-MvT"/>
                                                     <constraint firstAttribute="width" constant="80" id="lgJ-mT-4AM"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1401,7 +1401,7 @@
                                                     <constraint firstAttribute="height" constant="20" id="2se-02-2Y8"/>
                                                     <constraint firstAttribute="width" constant="23" id="IFe-Ra-Smy"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1420,7 +1420,7 @@
                                                     <constraint firstAttribute="height" constant="20" id="3EZ-yi-1MQ"/>
                                                     <constraint firstAttribute="width" constant="31" id="TqL-4m-zhn"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1452,7 +1452,7 @@
                                                     <constraint firstAttribute="height" constant="36" id="ZTZ-S5-WSN"/>
                                                     <constraint firstAttribute="width" constant="80" id="uKv-9s-VR4"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1471,7 +1471,7 @@
                                                     <constraint firstAttribute="width" constant="23" id="G5C-EC-2b5"/>
                                                     <constraint firstAttribute="height" constant="20" id="jAT-Ky-fee"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -1490,7 +1490,7 @@
                                                     <constraint firstAttribute="height" constant="20" id="LDK-Mo-XPt"/>
                                                     <constraint firstAttribute="width" constant="31" id="xlR-4l-8h7"/>
                                                 </constraints>
-                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>

@@ -40,10 +40,25 @@ class workOutMusic: UIViewController,MPMediaPickerControllerDelegate {
     var timeinterval = TimeInterval()
     
     
+    override func remoteControlReceived(with event: UIEvent?) {
+        switch event!.subtype {
+        case .remoteControlPlay:  // 再生ボタン
+            player.play()
+        case .remoteControlPause:  // 停止ボタン
+            player.pause()
+        case .remoteControlNextTrack: break  // 次へボタン
+        // ▶▶ 押下時の処理
+        case .remoteControlPreviousTrack: break  // 前へボタン
+        // ◀◀ 押下時の処理
+        default:
+            break
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+    
         changeMusic.layer.cornerRadius = 5.0
 
         //プレイヤーの準備
@@ -202,6 +217,10 @@ class workOutMusic: UIViewController,MPMediaPickerControllerDelegate {
         player.currentPlaybackTime = TimeInterval(scrubBar.value)
         currenttime = player.currentPlaybackTime
     }
+    
+    
+    
+    
     
  
 
