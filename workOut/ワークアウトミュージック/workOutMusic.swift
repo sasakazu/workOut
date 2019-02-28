@@ -18,6 +18,8 @@ class workOutMusic: UIViewController,MPMediaPickerControllerDelegate {
     @IBOutlet weak var playButton: UIButton!
     @IBOutlet weak var scrubBar: UISlider!
     
+    @IBOutlet weak var changeMusic: UIButton!
+    
     
     //MediaPlayerのインスタンスを作成
     var player:MPMusicPlayerController!
@@ -40,6 +42,9 @@ class workOutMusic: UIViewController,MPMediaPickerControllerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        changeMusic.layer.cornerRadius = 5.0
 
         //プレイヤーの準備
         player = MPMusicPlayerController.applicationMusicPlayer
@@ -87,7 +92,7 @@ class workOutMusic: UIViewController,MPMediaPickerControllerDelegate {
     func updatesong(mediaItem: MPMediaItem) {
         
         //曲情報を表示
-        songname.text = mediaItem.albumTitle ?? "不明なタイトル"
+        songname.text = mediaItem.title ?? "不明なタイトル"
         artistname.text = mediaItem.albumArtist ?? "不明なアーティスト"
         timeinterval = mediaItem.playbackDuration
         //アートワークを表示
@@ -136,7 +141,7 @@ class workOutMusic: UIViewController,MPMediaPickerControllerDelegate {
         //プレイヤーを一旦停止する
         player.pause()
         //曲が停止されたことを示す
-        playButton.setImage(UIImage(named: "play.png"), for: UIControl.State())
+        playButton.setImage(UIImage(named: "icon48"), for: UIControl.State())
         //MPMediaPickerのインスタンス
         let picker = MPMediaPickerController()
         //ピッカーのデリゲートを設定
@@ -157,7 +162,7 @@ class workOutMusic: UIViewController,MPMediaPickerControllerDelegate {
             //再生中であることを示す
             playorpause = 1
             //画像を再生のマークに
-            playButton.setImage(UIImage(named: "media.png"), for: UIControl.State())
+            playButton.setImage(UIImage(named: "stop.png"), for: UIControl.State())
             //もしまだ1度も再生されてなければ
             if flag == 0 {
                 scrubBar.isHidden = false
@@ -176,20 +181,20 @@ class workOutMusic: UIViewController,MPMediaPickerControllerDelegate {
             timer.invalidate()
             player.pause()
             playorpause = 0
-            playButton.setImage(UIImage(named: "play.png"), for: UIControl.State())
+            playButton.setImage(UIImage(named: "icon48.png"), for: UIControl.State())
         }
     }
     
     //次の曲へ
     @IBAction func next(_ sender: Any) {
         player.skipToNextItem()
-        playButton.setImage(UIImage(named: "media.png"), for: UIControl.State())
+        playButton.setImage(UIImage(named: "stop.png"), for: UIControl.State())
     }
     
     //前の曲へ
     @IBAction func back(_ sender: Any) {
         player.skipToPreviousItem()
-        playButton.setImage(UIImage(named: "media.png"), for: UIControl.State())
+        playButton.setImage(UIImage(named: "stop.png"), for: UIControl.State())
     }
     
     //スライダーを移動した位置を曲の再生位置に設定
