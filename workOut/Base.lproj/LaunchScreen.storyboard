@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Work Out" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tij-uc-kpV">
-                                <rect key="frame" x="68" y="297.5" width="239.5" height="72"/>
+                                <rect key="frame" x="68" y="231.5" width="239.5" height="72"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <color key="textColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -28,7 +28,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="tij-uc-kpV" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8NZ-qq-86v"/>
-                            <constraint firstItem="tij-uc-kpV" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Bbj-0E-fWQ"/>
+                            <constraint firstItem="tij-uc-kpV" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-66" id="Bbj-0E-fWQ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
