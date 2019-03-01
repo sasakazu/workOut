@@ -96,7 +96,7 @@
             </objects>
             <point key="canvasLocation" x="805.60000000000002" y="1814.8425787106448"/>
         </scene>
-        <!--WorkoutMusic-->
+        <!--Music-->
         <scene sceneID="epf-qT-2bx">
             <objects>
                 <viewController id="yj2-BC-8Qc" customClass="workOutMusic" customModule="workOut" customModuleProvider="target" sceneMemberID="viewController">
@@ -216,7 +216,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7SJ-35-f1R"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="WorkoutMusic" image="iconmonstr-disc-5-32" id="rQJ-yX-HAv"/>
+                    <tabBarItem key="tabBarItem" title="Music" image="wmusic" id="rQJ-yX-HAv"/>
                     <connections>
                         <outlet property="artistname" destination="YEN-Jv-aZU" id="fE6-SX-7JH"/>
                         <outlet property="changeMusic" destination="lax-vh-nxL" id="z40-R1-Pk9"/>
@@ -1935,10 +1935,10 @@
     <resources>
         <image name="icon48" width="48" height="48"/>
         <image name="iconmonstr-calendar-4-32" width="48" height="48"/>
-        <image name="iconmonstr-disc-5-32" width="48" height="48"/>
         <image name="iconmonstr-media-control-30-64" width="48" height="48"/>
         <image name="iconmonstr-media-control-34-32" width="48" height="48"/>
         <image name="iconmonstr-menu-thin-240" width="48" height="48"/>
         <image name="iconmonstr-time-6-32" width="48" height="48"/>
+        <image name="wmusic" width="48" height="48"/>
     </resources>
 </document>
