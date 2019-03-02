@@ -161,8 +161,8 @@ class addSetMenu: UIViewController, UITextFieldDelegate {
         
         currentTextField = textField
         
-        let left = UIBarButtonItem(title: "<", style: .plain, target: self, action: #selector(tapLeft))
-        let right = UIBarButtonItem(title: ">", style: .plain, target: self, action: #selector(tapRight))
+        let left = UIBarButtonItem(title: "＜ ", style: .plain, target: self, action: #selector(tapLeft))
+        let right = UIBarButtonItem(title: " ＞", style: .plain, target: self, action: #selector(tapRight))
         let space = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: self, action: nil)
         let done = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(tapDone))
         
