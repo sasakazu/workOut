@@ -12,6 +12,7 @@ import RealmSwift
 
 class editSetMenu: UIViewController, UITextFieldDelegate {
     
+    var currentTextField : UITextField?
     
     var editNamePh:String = ""
     
@@ -184,6 +185,53 @@ class editSetMenu: UIViewController, UITextFieldDelegate {
         
         self.view.endEditing(true)
     }
+    
+    
+    
+    
+    
+    //    toolbar
+    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+        
+        let toolBar = UIToolbar()
+        toolBar.barStyle = UIBarStyle.default
+        
+        toolBar.sizeToFit()
+        
+        currentTextField = textField
+        
+        let left = UIBarButtonItem(title: "<", style: .plain, target: self, action: #selector(tapLeft))
+        let right = UIBarButtonItem(title: ">", style: .plain, target: self, action: #selector(tapRight))
+        let space = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: self, action: nil)
+        let done = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(tapDone))
+        
+        toolBar.items = [left, right, space, done]
+        
+        textField.inputAccessoryView = toolBar
+        
+        return true
+    }
+    
+    @objc func tapDone(){
+        self.view.endEditing(true)
+    }
+    
+    @objc func tapLeft(){
+        guard let tag = currentTextField?.tag, let nextTextField = self.view.viewWithTag(tag - 1) else{
+            return
+        }
+        nextTextField.becomeFirstResponder()
+    }
+    
+    @objc func tapRight(){
+        guard let tag = currentTextField?.tag, let nextTextField = self.view.viewWithTag(tag + 1) else {
+            return
+        }
+        nextTextField.becomeFirstResponder()
+    }
+    
+
+    
     
   
 
