@@ -105,13 +105,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="曲名" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ssB-44-b2E">
-                                <rect key="frame" x="16" y="55" width="343" height="26.5"/>
+                                <rect key="frame" x="16" y="50" width="343" height="26.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="アーティスト名" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YEN-Jv-aZU">
-                                <rect key="frame" x="16" y="94.5" width="343" height="20.5"/>
+                                <rect key="frame" x="16" y="90.5" width="343" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -184,13 +184,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="iuC-fq-Zj1" firstAttribute="top" secondItem="YEN-Jv-aZU" secondAttribute="bottom" constant="33" id="25x-Ql-pDV"/>
+                            <constraint firstItem="iuC-fq-Zj1" firstAttribute="top" secondItem="YEN-Jv-aZU" secondAttribute="bottom" constant="37" id="25x-Ql-pDV"/>
                             <constraint firstItem="5HH-ol-KBU" firstAttribute="top" secondItem="IGg-zM-k46" secondAttribute="bottom" constant="35" id="69s-XH-1Wx"/>
                             <constraint firstItem="YEN-Jv-aZU" firstAttribute="leading" secondItem="7SJ-35-f1R" secondAttribute="leading" constant="16" id="9QS-Pv-FRF"/>
                             <constraint firstItem="bBM-lB-rGk" firstAttribute="leading" secondItem="7Rl-SR-5A0" secondAttribute="trailing" constant="23" id="D33-U5-sUc"/>
-                            <constraint firstItem="ssB-44-b2E" firstAttribute="top" secondItem="7SJ-35-f1R" secondAttribute="top" constant="35" id="F82-S4-PNz"/>
+                            <constraint firstItem="ssB-44-b2E" firstAttribute="top" secondItem="7SJ-35-f1R" secondAttribute="top" constant="30" id="F82-S4-PNz"/>
                             <constraint firstItem="bBM-lB-rGk" firstAttribute="top" secondItem="IGg-zM-k46" secondAttribute="bottom" constant="35" id="GRa-6z-Lsb"/>
-                            <constraint firstItem="iuC-fq-Zj1" firstAttribute="top" secondItem="YEN-Jv-aZU" secondAttribute="bottom" constant="33" id="Gas-2Q-WU5"/>
+                            <constraint firstItem="iuC-fq-Zj1" firstAttribute="top" secondItem="YEN-Jv-aZU" secondAttribute="bottom" constant="37" id="Gas-2Q-WU5"/>
                             <constraint firstItem="iuC-fq-Zj1" firstAttribute="trailing" secondItem="7SJ-35-f1R" secondAttribute="trailing" id="IL3-rv-xeP"/>
                             <constraint firstItem="7Rl-SR-5A0" firstAttribute="leading" secondItem="5HH-ol-KBU" secondAttribute="trailing" constant="77" id="Lnn-f3-haG"/>
                             <constraint firstItem="IGg-zM-k46" firstAttribute="top" secondItem="iuC-fq-Zj1" secondAttribute="bottom" constant="14" id="NdB-eg-guM"/>
@@ -209,7 +209,7 @@
                             <constraint firstItem="7SJ-35-f1R" firstAttribute="bottom" secondItem="bBM-lB-rGk" secondAttribute="bottom" constant="93" id="kNE-wR-KEi"/>
                             <constraint firstItem="7Rl-SR-5A0" firstAttribute="top" secondItem="IGg-zM-k46" secondAttribute="bottom" constant="14" id="l7Q-zB-AEV"/>
                             <constraint firstItem="7SJ-35-f1R" firstAttribute="bottom" secondItem="lax-vh-nxL" secondAttribute="bottom" constant="23" id="ouD-JH-iqW"/>
-                            <constraint firstItem="YEN-Jv-aZU" firstAttribute="top" secondItem="ssB-44-b2E" secondAttribute="bottom" constant="13" id="s7m-Sw-X9F"/>
+                            <constraint firstItem="YEN-Jv-aZU" firstAttribute="top" secondItem="ssB-44-b2E" secondAttribute="bottom" constant="14" id="s7m-Sw-X9F"/>
                             <constraint firstItem="7SJ-35-f1R" firstAttribute="bottom" secondItem="5HH-ol-KBU" secondAttribute="bottom" constant="93" id="sM9-Bx-TT0"/>
                             <constraint firstItem="IGg-zM-k46" firstAttribute="top" secondItem="iuC-fq-Zj1" secondAttribute="bottom" constant="14" id="wMJ-Fo-LMm"/>
                             <constraint firstItem="7Rl-SR-5A0" firstAttribute="leading" secondItem="5HH-ol-KBU" secondAttribute="trailing" constant="77" id="xmv-0k-mGb"/>
