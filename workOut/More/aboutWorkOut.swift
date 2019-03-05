@@ -13,11 +13,12 @@ class aboutWorkOut: UIViewController {
 
     // 広告ユニットID
     let AdMobID = "ca-app-pub-5047644305890156~6475028767"
+    
     // テスト用広告ユニットID
     let TEST_ID = "ca-app-pub-3940256099942544/2934735716"
     
     // true:テスト
-    let AdMobTest:Bool = true
+    let AdMobTest:Bool = false
     
     override func viewDidLoad() {
         super.viewDidLoad()

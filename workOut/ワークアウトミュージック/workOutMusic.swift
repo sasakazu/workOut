@@ -20,7 +20,6 @@ class workOutMusic: UIViewController,MPMediaPickerControllerDelegate {
     
     @IBOutlet weak var changeMusic: UIButton!
     
-    @IBOutlet weak var progressTime: UILabel!
     
     //MediaPlayerのインスタンスを作成
     var player:MPMusicPlayerController!
@@ -108,7 +107,7 @@ class workOutMusic: UIViewController,MPMediaPickerControllerDelegate {
     func updatesong(mediaItem: MPMediaItem) {
         
         //曲情報を表示
-        progressTime.text = "\(String(mediaItem.playbackDuration))分"
+//        progressTime.text = "\(String(mediaItem.playbackDuration))分"
         
         songname.text = mediaItem.title ?? "不明なタイトル"
         artistname.text = mediaItem.albumArtist ?? "不明なアーティスト"

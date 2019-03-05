@@ -67,7 +67,7 @@
 		7394273B21F3F70500BABC3E /* editSetMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editSetMenu.swift; sourceTree = "<group>"; };
 		73B873D721E5EBEC00E897EA /* launchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = launchViewController.swift; sourceTree = "<group>"; };
 		73C190A2220EBCBF001FD957 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		73C190A4220EC09B001FD957 /* aboutWorkOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = aboutWorkOut.swift; path = More/aboutWorkOut.swift; sourceTree = "<group>"; };
+		73C190A4220EC09B001FD957 /* aboutWorkOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aboutWorkOut.swift; sourceTree = "<group>"; };
 		92D9EB109B4E8224B90E27DA /* Pods-workOut.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workOut.debug.xcconfig"; path = "Target Support Files/Pods-workOut/Pods-workOut.debug.xcconfig"; sourceTree = "<group>"; };
 		F93C0DA4C644FC53F63A8B12 /* Pods-workOut.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workOut.release.xcconfig"; path = "Target Support Files/Pods-workOut/Pods-workOut.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				736F858121F713C000924459 /* moreTable.swift */,
+				73C190A4220EC09B001FD957 /* aboutWorkOut.swift */,
 			);
 			path = More;
 			sourceTree = "<group>";
@@ -153,7 +154,6 @@
 				73551F9021E0ACBF000946DB /* AppDelegate.swift */,
 				73551F9221E0ACBF000946DB /* ViewController.swift */,
 				73551F9421E0ACBF000946DB /* Main.storyboard */,
-				73C190A4220EC09B001FD957 /* aboutWorkOut.swift */,
 				73551F9721E0ACC0000946DB /* Assets.xcassets */,
 				73551F9921E0ACC0000946DB /* LaunchScreen.storyboard */,
 				73C190A2220EBCBF001FD957 /* GoogleService-Info.plist */,
