@@ -23,7 +23,7 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppleMusicUsageDescription</key>
-	<string>Allow access to AppleMusicLibrary?</string>
+	<string>AppleMusicを再生するためにアクセスを許可しますか？</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>audio</string>
