@@ -17,11 +17,15 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0.0</string>
 	<key>CFBundleVersion</key>
-	<string>1.0.1</string>
+	<string>1.0.3</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppleMusicUsageDescription</key>
-	<string>AppleMusicライブラリの使用を許可しますか？</string>
+	<string>AppleMusicLibraryへの使用を許可しますか？</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>許可しますか？</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>audio</string>

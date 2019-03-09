@@ -1,0 +1,303 @@
+
+/* Class = "UITabBarItem"; title = "setMenu"; ObjectID = "10p-ca-Amb"; */
+"10p-ca-Amb.title" = "setMenu";
+
+/* Class = "UILabel"; text = "3SET"; ObjectID = "1EI-wB-wYR"; */
+"1EI-wB-wYR.text" = "3SET";
+
+/* Class = "UILabel"; text = "500"; ObjectID = "1b5-u3-eI7"; */
+"1b5-u3-eI7.text" = "500";
+
+/* Class = "UILabel"; text = "200"; ObjectID = "1wv-ak-P4F"; */
+"1wv-ak-P4F.text" = "200";
+
+/* Class = "UILabel"; text = "日付を選択して下さい"; ObjectID = "3OG-8Y-c0G"; */
+"3OG-8Y-c0G.text" = "日付を選択して下さい";
+
+/* Class = "UILabel"; text = "200"; ObjectID = "4BV-en-eEw"; */
+"4BV-en-eEw.text" = "200";
+
+/* Class = "UILabel"; text = "Rep"; ObjectID = "4u3-G8-3cu"; */
+"4u3-G8-3cu.text" = "Rep";
+
+/* Class = "UIButton"; normalTitle = "前へ"; ObjectID = "5HH-ol-KBU"; */
+"5HH-ol-KBU.normalTitle" = "前へ";
+
+/* Class = "UILabel"; text = "Rep"; ObjectID = "6qe-Kb-CP7"; */
+"6qe-Kb-CP7.text" = "Rep";
+
+/* Class = "UILabel"; text = "WorkOutについて"; ObjectID = "6vk-2u-y1D"; */
+"6vk-2u-y1D.text" = "WorkOutについて";
+
+/* Class = "UITabBarItem"; title = "Interval"; ObjectID = "7NW-HU-oBs"; */
+"7NW-HU-oBs.title" = "Interval";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "7Rl-SR-5A0"; */
+"7Rl-SR-5A0.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "500"; ObjectID = "7zq-lP-jTW"; */
+"7zq-lP-jTW.text" = "500";
+
+/* Class = "UILabel"; text = "300"; ObjectID = "8MR-MN-DHf"; */
+"8MR-MN-DHf.text" = "300";
+
+/* Class = "UILabel"; text = "2SET"; ObjectID = "9zt-r0-zxT"; */
+"9zt-r0-zxT.text" = "2SET";
+
+/* Class = "UITextField"; placeholder = "10"; ObjectID = "AH9-uO-0LM"; */
+"AH9-uO-0LM.placeholder" = "10";
+
+/* Class = "UIBarButtonItem"; title = "完了"; ObjectID = "CDv-c5-fD1"; */
+"CDv-c5-fD1.title" = "完了";
+
+/* Class = "UIBarButtonItem"; title = "編集"; ObjectID = "Csp-gq-usv"; */
+"Csp-gq-usv.title" = "編集";
+
+/* Class = "UINavigationItem"; title = "セットメニュー追加"; ObjectID = "EVe-Tz-gKW"; */
+"EVe-Tz-gKW.title" = "セットメニュー追加";
+
+/* Class = "UILabel"; text = "KG"; ObjectID = "Ets-q2-7Ww"; */
+"Ets-q2-7Ww.text" = "KG";
+
+/* Class = "UILabel"; text = "KG"; ObjectID = "FAz-VP-GuL"; */
+"FAz-VP-GuL.text" = "KG";
+
+/* Class = "UILabel"; text = "KG"; ObjectID = "HsE-yc-IWc"; */
+"HsE-yc-IWc.text" = "KG";
+
+/* Class = "UILabel"; text = "5SET"; ObjectID = "I8G-kZ-Qgl"; */
+"I8G-kZ-Qgl.text" = "5SET";
+
+/* Class = "UILabel"; text = "4SET"; ObjectID = "ISn-5h-w3u"; */
+"ISn-5h-w3u.text" = "4SET";
+
+/* Class = "UILabel"; text = "KG"; ObjectID = "IuH-ou-GEU"; */
+"IuH-ou-GEU.text" = "KG";
+
+/* Class = "UILabel"; text = "4SET"; ObjectID = "KDO-8a-1h4"; */
+"KDO-8a-1h4.text" = "4SET";
+
+/* Class = "UILabel"; text = "400"; ObjectID = "KsK-xv-pOi"; */
+"KsK-xv-pOi.text" = "400";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "KzU-fm-aHh"; */
+"KzU-fm-aHh.text" = "100";
+
+/* Class = "UILabel"; text = "KG"; ObjectID = "L5L-Zo-HYE"; */
+"L5L-Zo-HYE.text" = "KG";
+
+/* Class = "UINavigationItem"; title = "スケジュール管理"; ObjectID = "M55-64-SVm"; */
+"M55-64-SVm.title" = "スケジュール管理";
+
+/* Class = "UILabel"; text = "400"; ObjectID = "MBa-yb-GhW"; */
+"MBa-yb-GhW.text" = "400";
+
+/* Class = "UILabel"; text = "4SET"; ObjectID = "MnT-7q-qWz"; */
+"MnT-7q-qWz.text" = "4SET";
+
+/* Class = "UILabel"; text = "00"; ObjectID = "NFJ-Hk-gmC"; */
+"NFJ-Hk-gmC.text" = "00";
+
+/* Class = "UILabel"; text = "2SET"; ObjectID = "OUw-E9-0vu"; */
+"OUw-E9-0vu.text" = "2SET";
+
+/* Class = "UILabel"; text = "rep"; ObjectID = "Ocr-kD-Q43"; */
+"Ocr-kD-Q43.text" = "rep";
+
+/* Class = "UILabel"; text = "rep"; ObjectID = "OeG-s0-kMH"; */
+"OeG-s0-kMH.text" = "rep";
+
+/* Class = "UILabel"; text = "KG"; ObjectID = "OkX-0f-lR0"; */
+"OkX-0f-lR0.text" = "KG";
+
+/* Class = "UILabel"; text = "Rep"; ObjectID = "Oyy-fN-vAF"; */
+"Oyy-fN-vAF.text" = "Rep";
+
+/* Class = "UINavigationItem"; title = "編集"; ObjectID = "PVz-HL-l1w"; */
+"PVz-HL-l1w.title" = "編集";
+
+/* Class = "UILabel"; text = "Rep"; ObjectID = "QZf-gJ-PbP"; */
+"QZf-gJ-PbP.text" = "Rep";
+
+/* Class = "UITextField"; placeholder = "50"; ObjectID = "REV-G4-fRV"; */
+"REV-G4-fRV.placeholder" = "50";
+
+/* Class = "UITextField"; placeholder = "60"; ObjectID = "RY9-zb-Wio"; */
+"RY9-zb-Wio.placeholder" = "60";
+
+/* Class = "UILabel"; text = "KG"; ObjectID = "ShZ-jF-zb2"; */
+"ShZ-jF-zb2.text" = "KG";
+
+/* Class = "UITextField"; placeholder = "スケジュールを記入"; ObjectID = "Smu-Py-1Aw"; */
+"Smu-Py-1Aw.placeholder" = "スケジュールを記入";
+
+/* Class = "UILabel"; text = "300"; ObjectID = "TTp-kf-WbW"; */
+"TTp-kf-WbW.text" = "300";
+
+/* Class = "UILabel"; text = "5SET"; ObjectID = "UK6-uj-YUj"; */
+"UK6-uj-YUj.text" = "5SET";
+
+/* Class = "UITextField"; placeholder = "10"; ObjectID = "UVd-pM-kkU"; */
+"UVd-pM-kkU.placeholder" = "10";
+
+/* Class = "UILabel"; text = "1SET"; ObjectID = "VDK-Iz-Au3"; */
+"VDK-Iz-Au3.text" = "1SET";
+
+/* Class = "UILabel"; text = "5SET"; ObjectID = "VSH-WT-Fv8"; */
+"VSH-WT-Fv8.text" = "5SET";
+
+/* Class = "UILabel"; text = "KG"; ObjectID = "W8c-j2-HfW"; */
+"W8c-j2-HfW.text" = "KG";
+
+/* Class = "UITextField"; placeholder = "60"; ObjectID = "Wmc-BR-sFU"; */
+"Wmc-BR-sFU.placeholder" = "60";
+
+/* Class = "UITextField"; placeholder = "トレーニングメニュー記入"; ObjectID = "Wzv-yj-frN"; */
+"Wzv-yj-frN.placeholder" = "トレーニングメニュー記入";
+
+/* Class = "UIBarButtonItem"; title = "New"; ObjectID = "XAE-CS-XJ7"; */
+"XAE-CS-XJ7.title" = "New";
+
+/* Class = "UITextField"; placeholder = "50"; ObjectID = "YAG-vS-Ltx"; */
+"YAG-vS-Ltx.placeholder" = "50";
+
+/* Class = "UILabel"; text = "アーティスト名"; ObjectID = "YEN-Jv-aZU"; */
+"YEN-Jv-aZU.text" = "アーティスト名";
+
+/* Class = "UITextField"; placeholder = "10"; ObjectID = "YYf-j9-gT2"; */
+"YYf-j9-gT2.placeholder" = "10";
+
+/* Class = "UILabel"; text = "3SET"; ObjectID = "Yce-0N-eFU"; */
+"Yce-0N-eFU.text" = "3SET";
+
+/* Class = "UITabBarItem"; title = "Schedule"; ObjectID = "Yeb-Dw-bx6"; */
+"Yeb-Dw-bx6.title" = "Schedule";
+
+/* Class = "UILabel"; text = "rep"; ObjectID = "Zsu-QA-ea0"; */
+"Zsu-QA-ea0.text" = "rep";
+
+/* Class = "UILabel"; text = "KG"; ObjectID = "aaE-Wt-3gu"; */
+"aaE-Wt-3gu.text" = "KG";
+
+/* Class = "UIButton"; normalTitle = "次へ"; ObjectID = "bBM-lB-rGk"; */
+"bBM-lB-rGk.normalTitle" = "次へ";
+
+/* Class = "UILabel"; text = "KG"; ObjectID = "bM9-iv-ZBC"; */
+"bM9-iv-ZBC.text" = "KG";
+
+/* Class = "UILabel"; text = "Rep"; ObjectID = "c5E-4u-5Kz"; */
+"c5E-4u-5Kz.text" = "Rep";
+
+/* Class = "UINavigationItem"; title = "トレーニング詳細"; ObjectID = "d4q-wi-FyB"; */
+"d4q-wi-FyB.title" = "トレーニング詳細";
+
+/* Class = "UILabel"; text = "KG"; ObjectID = "e07-pw-phJ"; */
+"e07-pw-phJ.text" = "KG";
+
+/* Class = "UILabel"; text = "rep"; ObjectID = "euQ-ng-85R"; */
+"euQ-ng-85R.text" = "rep";
+
+/* Class = "UITextView"; text = "ワークアウトは筋トレを愛する人に愛されるアプリであり続けます。"; ObjectID = "fFJ-Ed-Cjz"; */
+"fFJ-Ed-Cjz.text" = "ワークアウトは筋トレを愛する人に愛されるアプリであり続けます。";
+
+/* Class = "UIBarButtonItem"; title = "編集"; ObjectID = "ffs-GE-MDH"; */
+"ffs-GE-MDH.title" = "編集";
+
+/* Class = "UITextField"; placeholder = "10"; ObjectID = "hGO-1v-OKj"; */
+"hGO-1v-OKj.placeholder" = "10";
+
+/* Class = "UILabel"; text = "rep"; ObjectID = "hMg-yN-cit"; */
+"hMg-yN-cit.text" = "rep";
+
+/* Class = "UITextField"; placeholder = "80"; ObjectID = "iHt-dB-bjz"; */
+"iHt-dB-bjz.placeholder" = "80";
+
+/* Class = "UILabel"; text = "KG"; ObjectID = "j1P-I2-GAF"; */
+"j1P-I2-GAF.text" = "KG";
+
+/* Class = "UILabel"; text = "KG"; ObjectID = "krB-cI-HMI"; */
+"krB-cI-HMI.text" = "KG";
+
+/* Class = "UIButton"; normalTitle = "選曲画面へ"; ObjectID = "lax-vh-nxL"; */
+"lax-vh-nxL.normalTitle" = "選曲画面へ";
+
+/* Class = "UILabel"; text = "100"; ObjectID = "lpM-CL-ugQ"; */
+"lpM-CL-ugQ.text" = "100";
+
+/* Class = "UILabel"; text = "スケジュール内容"; ObjectID = "o8r-xX-9vX"; */
+"o8r-xX-9vX.text" = "スケジュール内容";
+
+/* Class = "UILabel"; text = "1SET"; ObjectID = "os8-a8-NZp"; */
+"os8-a8-NZp.text" = "1SET";
+
+/* Class = "UILabel"; text = "rep"; ObjectID = "p1s-6C-XIu"; */
+"p1s-6C-XIu.text" = "rep";
+
+/* Class = "UIButton"; normalTitle = "スケジュールに追加！"; ObjectID = "pc8-ac-urO"; */
+"pc8-ac-urO.normalTitle" = "スケジュールに追加！";
+
+/* Class = "UILabel"; text = "00"; ObjectID = "pz9-oe-DpR"; */
+"pz9-oe-DpR.text" = "00";
+
+/* Class = "UILabel"; text = "KG"; ObjectID = "qTQ-1w-pBj"; */
+"qTQ-1w-pBj.text" = "KG";
+
+/* Class = "UILabel"; text = "1SET"; ObjectID = "r98-dg-MKt"; */
+"r98-dg-MKt.text" = "1SET";
+
+/* Class = "UIButton"; normalTitle = "STOP"; ObjectID = "rCJ-r2-ZA9"; */
+"rCJ-r2-ZA9.normalTitle" = "STOP";
+
+/* Class = "UITabBarItem"; title = "Music"; ObjectID = "rQJ-yX-HAv"; */
+"rQJ-yX-HAv.title" = "Music";
+
+/* Class = "UILabel"; text = "3SET"; ObjectID = "rR5-SG-5sy"; */
+"rR5-SG-5sy.text" = "3SET";
+
+/* Class = "UILabel"; text = "曲名"; ObjectID = "ssB-44-b2E"; */
+"ssB-44-b2E.text" = "曲名";
+
+/* Class = "UILabel"; text = "トレーニングメニュー"; ObjectID = "ti1-RG-qvn"; */
+"ti1-RG-qvn.text" = "トレーニングメニュー";
+
+/* Class = "UILabel"; text = "rep"; ObjectID = "tjP-NH-RHa"; */
+"tjP-NH-RHa.text" = "rep";
+
+/* Class = "UILabel"; text = "01月01日"; ObjectID = "tzd-fU-QJm"; */
+"tzd-fU-QJm.text" = "01月01日";
+
+/* Class = "UILabel"; text = "rep"; ObjectID = "udf-12-qtF"; */
+"udf-12-qtF.text" = "rep";
+
+/* Class = "UIBarButtonItem"; title = "完了"; ObjectID = "uiK-FX-mhJ"; */
+"uiK-FX-mhJ.title" = "完了";
+
+/* Class = "UILabel"; text = "KG"; ObjectID = "v03-3d-VlD"; */
+"v03-3d-VlD.text" = "KG";
+
+/* Class = "UILabel"; text = "rep"; ObjectID = "v15-k0-H0d"; */
+"v15-k0-H0d.text" = "rep";
+
+/* Class = "UILabel"; text = "00"; ObjectID = "vhg-4g-x38"; */
+"vhg-4g-x38.text" = "00";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "w6V-O8-5Ce"; */
+"w6V-O8-5Ce.normalTitle" = "START";
+
+/* Class = "UITextField"; placeholder = "10"; ObjectID = "xAf-QV-bOO"; */
+"xAf-QV-bOO.placeholder" = "10";
+
+/* Class = "UINavigationItem"; title = "WorkOutについて"; ObjectID = "xwS-cG-x5M"; */
+"xwS-cG-x5M.title" = "WorkOutについて";
+
+/* Class = "UINavigationItem"; title = "セットメニュー"; ObjectID = "y7h-YF-KCe"; */
+"y7h-YF-KCe.title" = "セットメニュー";
+
+/* Class = "UILabel"; text = "2SET"; ObjectID = "yRf-Vr-31R"; */
+"yRf-Vr-31R.text" = "2SET";
+
+/* Class = "UILabel"; text = "rep"; ObjectID = "yz1-hX-MF2"; */
+"yz1-hX-MF2.text" = "rep";
+
+/* Class = "UINavigationItem"; title = "スケジュール"; ObjectID = "z0y-4O-czo"; */
+"z0y-4O-czo.title" = "スケジュール";
