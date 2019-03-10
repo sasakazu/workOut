@@ -26,6 +26,9 @@ class scheduleMain: UIViewController, FSCalendarDelegate, FSCalendarDataSource, 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+            dateView.scope = .week
+
+        
         self.dateView.calendarWeekdayView.weekdayLabels[0].text = "日"
         self.dateView.calendarWeekdayView.weekdayLabels[1].text = "月"
         self.dateView.calendarWeekdayView.weekdayLabels[2].text = "火"
@@ -145,7 +148,7 @@ class scheduleMain: UIViewController, FSCalendarDelegate, FSCalendarDataSource, 
         let da = "\(year)/\(m)/\(d)"
         
         //クリックしたら、日付が表示される。
-        Date.text = "\(m)/\(d)"
+        Date.text = "\(m)月\(d)日"
         view.addSubview(Date)
         
         //スケジュール取得
