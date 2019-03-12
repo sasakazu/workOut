@@ -19,8 +19,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Work Out" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tij-uc-kpV">
-                                <rect key="frame" x="42" y="275" width="291" height="81.5"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="68"/>
+                                <rect key="frame" x="101" y="290" width="173.5" height="51.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="43"/>
                                 <color key="textColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>

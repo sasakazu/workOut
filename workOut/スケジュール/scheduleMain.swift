@@ -25,27 +25,35 @@ class scheduleMain: UIViewController, FSCalendarDelegate, FSCalendarDataSource, 
 
     override func viewDidLoad() {
         super.viewDidLoad()
+   
+        self.dateView.scope = .week
         
-            dateView.scope = .week
-
+        let now = NSDate()
         
-        self.dateView.calendarWeekdayView.weekdayLabels[0].text = "日"
-        self.dateView.calendarWeekdayView.weekdayLabels[1].text = "月"
-        self.dateView.calendarWeekdayView.weekdayLabels[2].text = "火"
-        self.dateView.calendarWeekdayView.weekdayLabels[3].text = "水"
-        self.dateView.calendarWeekdayView.weekdayLabels[4].text = "木"
-        self.dateView.calendarWeekdayView.weekdayLabels[5].text = "金"
-        self.dateView.calendarWeekdayView.weekdayLabels[6].text = "土"
+        let formatter = DateFormatter()
+        formatter.dateFormat = "MM月dd日"
+        
+        let string = formatter.string(from: now as Date)
+        
+        Date.text = string
+        
+//        self.dateView.calendarWeekdayView.weekdayLabels[0].text = "日"
+//        self.dateView.calendarWeekdayView.weekdayLabels[1].text = "月"
+//        self.dateView.calendarWeekdayView.weekdayLabels[2].text = "火"
+//        self.dateView.calendarWeekdayView.weekdayLabels[3].text = "水"
+//        self.dateView.calendarWeekdayView.weekdayLabels[4].text = "木"
+//        self.dateView.calendarWeekdayView.weekdayLabels[5].text = "金"
+//        self.dateView.calendarWeekdayView.weekdayLabels[6].text = "土"
         
         
         //カレンダー設定
         self.dateView.dataSource = self
         self.dateView.delegate = self
-        self.dateView.today = nil
+//        self.dateView.today = false
         self.dateView.tintColor = .red
         self.view.backgroundColor = .white
-        dateView.backgroundColor = .white
-//        dateView.scrollDirection = .vertical
+        self.dateView.backgroundColor = .white
+        dateView.scrollDirection = .vertical
 
         
         view.addSubview(dateView)
@@ -122,13 +130,7 @@ class scheduleMain: UIViewController, FSCalendarDelegate, FSCalendarDataSource, 
         
         return nil
     }
-    
-    
-//    @objc func onClick(_: UIButton) {
-//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//        let SecondController = storyboard.instantiateViewController(withIdentifier: "Insert")
-//        present(SecondController, animated: true, completion: nil)
-//    }
+
     
     
     //カレンダー処理(スケジュール表示処理)
@@ -168,7 +170,7 @@ class scheduleMain: UIViewController, FSCalendarDelegate, FSCalendarDataSource, 
         
     }
     
-    
+ 
     
     
     

@@ -23,6 +23,8 @@ class scheduleAdd: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+
+        
         
 //        角丸
         eventInsert.layer.cornerRadius = 7.0
