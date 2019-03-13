@@ -12,7 +12,8 @@ import RealmSwift
 
 class addSetMenu: UIViewController, UITextFieldDelegate {
     
-    
+    var ActivityIndicator: UIActivityIndicatorView!
+
     var currentTextField : UITextField?
     
     @IBOutlet weak var setNameTF: UITextField!
@@ -93,6 +94,21 @@ class addSetMenu: UIViewController, UITextFieldDelegate {
         fiveRepTF.delegate = self
         
         
+//        くるくる
+        // ActivityIndicatorを作成＆中央に配置
+        ActivityIndicator = UIActivityIndicatorView()
+        ActivityIndicator.frame = CGRect(x: 0, y: 0, width: 80, height: 80)
+        ActivityIndicator.center = self.view.center
+        
+        // クルクルをストップした時に非表示する
+        ActivityIndicator.hidesWhenStopped = true
+        
+        // 色を設定
+        ActivityIndicator.style = UIActivityIndicatorView.Style.whiteLarge
+        
+        //Viewに追加
+        self.view.addSubview(ActivityIndicator)
+        
         
     }
     
@@ -130,6 +146,9 @@ class addSetMenu: UIViewController, UITextFieldDelegate {
         }
         
         self.navigationController?.popViewController(animated: true)
+        
+        
+        ActivityIndicator.startAnimating()
         
     }
     

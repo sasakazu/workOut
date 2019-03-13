@@ -36,7 +36,7 @@ class scheduleAdd: UIViewController, UITextFieldDelegate {
         ActivityIndicator.hidesWhenStopped = true
         
         // 色を設定
-        ActivityIndicator.style = UIActivityIndicatorView.Style.gray
+        ActivityIndicator.style = UIActivityIndicatorView.Style.whiteLarge
         
         //Viewに追加
         self.view.addSubview(ActivityIndicator)
