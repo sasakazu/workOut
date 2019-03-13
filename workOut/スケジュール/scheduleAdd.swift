@@ -12,6 +12,9 @@ import RealmSwift
 
 class scheduleAdd: UIViewController, UITextFieldDelegate {
     
+    var ActivityIndicator: UIActivityIndicatorView!
+
+    
     @IBOutlet weak var eventText: UITextField!
     @IBOutlet weak var y: UIDatePicker!
     @IBOutlet weak var y_text: UILabel!
@@ -24,7 +27,19 @@ class scheduleAdd: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         
 
+        // ActivityIndicatorを作成＆中央に配置
+        ActivityIndicator = UIActivityIndicatorView()
+        ActivityIndicator.frame = CGRect(x: 0, y: 0, width: 80, height: 80)
+        ActivityIndicator.center = self.view.center
         
+        // クルクルをストップした時に非表示する
+        ActivityIndicator.hidesWhenStopped = true
+        
+        // 色を設定
+        ActivityIndicator.style = UIActivityIndicatorView.Style.gray
+        
+        //Viewに追加
+        self.view.addSubview(ActivityIndicator)
         
 //        角丸
         eventInsert.layer.cornerRadius = 7.0
@@ -75,9 +90,14 @@ class scheduleAdd: UIViewController, UITextFieldDelegate {
             let Events = [Event(value: ["date": y_text.text, "event": eventText.text])]
             realm.add(Events)
             print("データ書き込み中")
+            
+            ActivityIndicator.startAnimating()
+
         }
         
         print("データ書き込み完了")
+        
+
         
         self.navigationController?.popViewController(animated: true)
         
@@ -99,6 +119,29 @@ class scheduleAdd: UIViewController, UITextFieldDelegate {
         self.view.endEditing(true)
     }
     
+    
+    
+    //    toolbar
+    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+        
+        let toolBar = UIToolbar()
+        toolBar.barStyle = UIBarStyle.default
+        
+        toolBar.sizeToFit()
+        
+        let space = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: self, action: nil)
+        let done = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(tapDone))
+        
+        toolBar.items = [space, done]
+        
+        textField.inputAccessoryView = toolBar
+        
+        return true
+    }
+    
+    @objc func tapDone(){
+        self.view.endEditing(true)
+    }
     
 }
 
