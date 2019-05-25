@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ifs-rG-fAG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ifs-rG-fAG">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -1612,12 +1612,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日のスケジュール" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o8r-xX-9vX">
-                                <rect key="frame" x="25" y="380" width="334" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日のスケジュール：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o8r-xX-9vX">
+                                <rect key="frame" x="25" y="380" width="165" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="tAc-vx-tu0"/>
+                                    <constraint firstAttribute="height" constant="21" id="0gm-JO-Mn1"/>
+                                    <constraint firstAttribute="width" constant="165" id="ebo-Mb-ZAD"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" red="0.078772365086803117" green="0.6735964550111504" blue="0.9688752956467005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -1660,24 +1661,54 @@
                                     <constraint firstAttribute="width" constant="219" id="mDH-75-Yx2"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
-                                <color key="textColor" red="0.4756349325" green="0.47564673419999998" blue="0.47564041610000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日のカロリー数" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lAk-Xb-vcb">
-                                <rect key="frame" x="25" y="426" width="334" height="31"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日のカロリー数：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lAk-Xb-vcb">
+                                <rect key="frame" x="25" y="409" width="165" height="23"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="334" id="NcW-7s-5aL"/>
-                                    <constraint firstAttribute="height" constant="31" id="yVs-gI-Lyz"/>
+                                    <constraint firstAttribute="width" constant="165" id="CHR-YP-Vre"/>
+                                    <constraint firstAttribute="height" constant="23" id="WOp-n2-SPE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <color key="textColor" red="0.26609612538598326" green="0.88897557303248731" blue="0.32753767433728409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日の歩数" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yjr-GX-Lcz">
-                                <rect key="frame" x="25" y="472" width="334" height="31"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日のスケジュール" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e1g-fI-lrf">
+                                <rect key="frame" x="198" y="380" width="161" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="31" id="PuU-kh-aCO"/>
-                                    <constraint firstAttribute="width" constant="334" id="heR-LP-XSh"/>
+                                    <constraint firstAttribute="height" constant="21" id="byK-Qx-Mfo"/>
+                                    <constraint firstAttribute="width" constant="161" id="uBD-Re-bHl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234Cal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tj4-Nf-tOs">
+                                <rect key="frame" x="198" y="409" width="161" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="161" id="TMy-le-N6O"/>
+                                    <constraint firstAttribute="height" constant="21" id="pdU-Vi-L6e"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2,000歩" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AZB-CT-7jQ">
+                                <rect key="frame" x="198" y="441" width="161" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="161" id="X0r-lt-4SR"/>
+                                    <constraint firstAttribute="height" constant="21" id="kWa-8K-kjm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日の歩数：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yjr-GX-Lcz">
+                                <rect key="frame" x="25" y="439" width="165" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="165" id="E8P-nX-DNQ"/>
+                                    <constraint firstAttribute="height" constant="24" id="xoR-Ah-DET"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                 <color key="textColor" red="1" green="0.324386696526342" blue="0.92956270605247215" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1686,22 +1717,31 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="o8r-xX-9vX" firstAttribute="top" secondItem="tzd-fU-QJm" secondAttribute="bottom" constant="14" id="09S-Qp-qyo"/>
-                            <constraint firstItem="X93-aB-kt4" firstAttribute="trailing" secondItem="lAk-Xb-vcb" secondAttribute="trailing" constant="16" id="JAg-UG-yS4"/>
+                            <constraint firstItem="AZB-CT-7jQ" firstAttribute="leading" secondItem="Yjr-GX-Lcz" secondAttribute="trailing" constant="8" id="2PM-O9-cZ6"/>
+                            <constraint firstItem="e1g-fI-lrf" firstAttribute="top" secondItem="tzd-fU-QJm" secondAttribute="bottom" constant="14" id="3wR-UV-Jfe"/>
+                            <constraint firstItem="X93-aB-kt4" firstAttribute="trailing" secondItem="tj4-Nf-tOs" secondAttribute="trailing" constant="16" id="Cde-Cg-O8m"/>
+                            <constraint firstItem="tj4-Nf-tOs" firstAttribute="top" secondItem="e1g-fI-lrf" secondAttribute="bottom" constant="8" id="GsT-aX-cCU"/>
+                            <constraint firstItem="e1g-fI-lrf" firstAttribute="leading" secondItem="o8r-xX-9vX" secondAttribute="trailing" constant="8" id="IEr-RS-H3C"/>
                             <constraint firstItem="X93-aB-kt4" firstAttribute="bottom" secondItem="NZO-Ah-ZfC" secondAttribute="bottom" constant="20" id="Jwi-KY-IJj"/>
                             <constraint firstItem="tzd-fU-QJm" firstAttribute="leading" secondItem="X93-aB-kt4" secondAttribute="leading" constant="25" id="LjM-zB-bdA"/>
-                            <constraint firstItem="lAk-Xb-vcb" firstAttribute="leading" secondItem="X93-aB-kt4" secondAttribute="leading" constant="25" id="MTr-3k-Kss"/>
+                            <constraint firstItem="o8r-xX-9vX" firstAttribute="leading" secondItem="X93-aB-kt4" secondAttribute="leading" constant="25" id="M5V-TO-M5x"/>
                             <constraint firstItem="A7h-Wh-92t" firstAttribute="leading" secondItem="X93-aB-kt4" secondAttribute="leading" id="NSp-QD-pri"/>
-                            <constraint firstItem="o8r-xX-9vX" firstAttribute="leading" secondItem="X93-aB-kt4" secondAttribute="leading" constant="25" id="Pzr-HV-Hln"/>
-                            <constraint firstItem="X93-aB-kt4" firstAttribute="trailing" secondItem="Yjr-GX-Lcz" secondAttribute="trailing" constant="16" id="UJu-rp-eoG"/>
+                            <constraint firstItem="o8r-xX-9vX" firstAttribute="top" secondItem="tzd-fU-QJm" secondAttribute="bottom" constant="14" id="QC7-ic-KCl"/>
+                            <constraint firstItem="Yjr-GX-Lcz" firstAttribute="top" secondItem="lAk-Xb-vcb" secondAttribute="bottom" constant="7" id="RN1-6b-pRD"/>
+                            <constraint firstItem="tj4-Nf-tOs" firstAttribute="leading" secondItem="lAk-Xb-vcb" secondAttribute="trailing" constant="8" id="Wwn-mR-mi7"/>
+                            <constraint firstItem="AZB-CT-7jQ" firstAttribute="top" secondItem="tj4-Nf-tOs" secondAttribute="bottom" constant="11" id="Wx0-Lk-Eil"/>
+                            <constraint firstItem="tj4-Nf-tOs" firstAttribute="leading" secondItem="lAk-Xb-vcb" secondAttribute="trailing" constant="8" id="a3V-hV-KD8"/>
                             <constraint firstItem="A7h-Wh-92t" firstAttribute="trailing" secondItem="X93-aB-kt4" secondAttribute="trailing" id="an9-Ao-LiK"/>
-                            <constraint firstItem="lAk-Xb-vcb" firstAttribute="top" secondItem="o8r-xX-9vX" secondAttribute="bottom" constant="25" id="dxX-gE-tnv"/>
+                            <constraint firstItem="lAk-Xb-vcb" firstAttribute="leading" secondItem="X93-aB-kt4" secondAttribute="leading" constant="25" id="dYM-C3-AVn"/>
                             <constraint firstItem="X93-aB-kt4" firstAttribute="trailing" secondItem="NZO-Ah-ZfC" secondAttribute="trailing" constant="16" id="epw-EF-Qyb"/>
+                            <constraint firstItem="Yjr-GX-Lcz" firstAttribute="leading" secondItem="X93-aB-kt4" secondAttribute="leading" constant="25" id="gJK-Xj-9p4"/>
                             <constraint firstItem="tzd-fU-QJm" firstAttribute="top" secondItem="A7h-Wh-92t" secondAttribute="bottom" constant="10" id="gtQ-nk-sTZ"/>
-                            <constraint firstItem="X93-aB-kt4" firstAttribute="trailing" secondItem="o8r-xX-9vX" secondAttribute="trailing" constant="16" id="j7K-gF-fzO"/>
-                            <constraint firstItem="Yjr-GX-Lcz" firstAttribute="leading" secondItem="X93-aB-kt4" secondAttribute="leading" constant="25" id="k0b-Xb-Vdf"/>
+                            <constraint firstItem="lAk-Xb-vcb" firstAttribute="top" secondItem="o8r-xX-9vX" secondAttribute="bottom" constant="8" id="ha5-sh-UbH"/>
+                            <constraint firstItem="X93-aB-kt4" firstAttribute="trailing" secondItem="AZB-CT-7jQ" secondAttribute="trailing" constant="16" id="kDl-cP-2mf"/>
+                            <constraint firstItem="e1g-fI-lrf" firstAttribute="leading" secondItem="o8r-xX-9vX" secondAttribute="trailing" constant="8" id="lKA-bw-wre"/>
                             <constraint firstItem="A7h-Wh-92t" firstAttribute="top" secondItem="X93-aB-kt4" secondAttribute="top" id="pYB-x6-dua"/>
-                            <constraint firstItem="Yjr-GX-Lcz" firstAttribute="top" secondItem="lAk-Xb-vcb" secondAttribute="bottom" constant="15" id="sZP-ns-nfK"/>
+                            <constraint firstItem="AZB-CT-7jQ" firstAttribute="leading" secondItem="Yjr-GX-Lcz" secondAttribute="trailing" constant="8" id="xrZ-QM-7e0"/>
+                            <constraint firstItem="X93-aB-kt4" firstAttribute="trailing" secondItem="e1g-fI-lrf" secondAttribute="trailing" constant="16" id="yMh-pb-xlo"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="X93-aB-kt4"/>
                     </view>
@@ -1962,13 +2002,13 @@
         </scene>
     </scenes>
     <resources>
-        <image name="icon48" width="48" height="48"/>
-        <image name="iconmonstr-calendar-4-32" width="48" height="48"/>
-        <image name="iconmonstr-media-control-30-64" width="48" height="48"/>
-        <image name="iconmonstr-media-control-34-32" width="48" height="48"/>
-        <image name="iconmonstr-menu-thin-240" width="48" height="48"/>
-        <image name="iconmonstr-time-6-32" width="48" height="48"/>
+        <image name="icon48" width="32" height="32"/>
+        <image name="iconmonstr-calendar-4-32" width="32" height="32"/>
+        <image name="iconmonstr-media-control-30-64" width="32" height="32"/>
+        <image name="iconmonstr-media-control-34-32" width="32" height="32"/>
+        <image name="iconmonstr-menu-thin-240" width="32" height="32"/>
+        <image name="iconmonstr-time-6-32" width="32" height="32"/>
         <image name="og_image" width="1200" height="630"/>
-        <image name="wmusic" width="48" height="48"/>
+        <image name="wmusic" width="32" height="32"/>
     </resources>
 </document>
